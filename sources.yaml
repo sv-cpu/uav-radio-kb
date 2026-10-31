@@ -164,3 +164,291 @@ sources:
     availability: available
     license: unknown
     notes: "QPSK definition and four phase values; instrument documentation."
+  - id: keysight-antenna-tips
+    title: "Antenna Performance Tips"
+    organization: Keysight Technologies
+    type: technical_guide
+    language: en
+    url: https://www.keysight.com/us/en/assets/7018-06498/ebooks/5992-3662.pdf
+    edition: "5992-3662, publication date unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: "PDF available"
+    license: unknown
+    notes: "Tips 1–3: antenna type and performance, printed and PDF pp. 3–8."
+  - id: adi-rf-chain
+    title: "RF Signal Chain Discourse: Properties and Performance Metrics"
+    organization: Analog Devices
+    type: technical_article
+    language: en
+    url: https://www.analog.com/en/resources/analog-dialogue/articles/rf-signal-chain-discourse.html
+    edition: unknown
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Sections on noise, linearity, dynamic range and receiver sensitivity."
+  - id: adi-spread-spectrum
+    title: "An Introduction to Spread-Spectrum Communications"
+    organization: Analog Devices
+    type: technical_article
+    language: en
+    url: https://www.analog.com/en/resources/technical-articles/introduction-to-spreadspectrum-communications--maxim-integrated.html
+    edition: unknown
+    published: "2003-02-18"
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Introduction, Direct-Sequence Spread Spectrum, Frequency-Hopping Spread Spectrum."
+  - id: px4-safety-v116
+    title: "Safety (Failsafe) Configuration"
+    organization: PX4
+    type: developer_documentation
+    language: en
+    url: https://docs.px4.io/v1.16/en/config/safety
+    edition: "PX4 v1.16"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Manual Control Loss Failsafe, Data Link Loss Failsafe and general failsafe actions."
+  - id: px4-integrated-gcs
+    title: "Integrated Ground Control Stations"
+    organization: PX4
+    type: developer_documentation
+    language: en
+    url: https://docs.px4.io/main/en/config/integrated_gcs
+    edition: "main, rolling documentation, revision not pinned"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Manual Control, Telemetry Link and Failsafes; verify against deployed release."
+  - id: mw-antenna-classification
+    title: "Antenna Classification"
+    organization: MathWorks
+    type: technical_documentation
+    language: en
+    url: https://www.mathworks.com/help/antenna/gs/antenna-classification.html
+    edition: "online documentation; exact revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Radiation Pattern; Feeding Mechanism"
+  - id: mw-monopole
+    title: "Monopole Antennas"
+    organization: MathWorks
+    type: technical_documentation
+    language: en
+    url: https://www.mathworks.com/help/antenna/monopole-antennas.html
+    edition: "online documentation; exact revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Introduction"
+  - id: mw-patch
+    title: "Patch Antennas"
+    organization: MathWorks
+    type: technical_documentation
+    language: en
+    url: https://www.mathworks.com/help/antenna/patch-antennas.html
+    edition: "online documentation; exact revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Introduction"
+  - id: mw-cloverleaf
+    title: "cloverleaf"
+    organization: MathWorks
+    type: technical_documentation
+    language: en
+    url: https://www.mathworks.com/help/antenna/ref/cloverleaf.html
+    edition: "online documentation; exact revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Description"
+  - id: mw-helix
+    title: "helix"
+    organization: MathWorks
+    type: technical_documentation
+    language: en
+    url: https://www.mathworks.com/help/antenna/ref/helix.html
+    edition: "online documentation; exact revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Description; related example https://www.mathworks.com/help/antenna/helix-antennas.html"
+  - id: mw-yagi
+    title: "yagiUda"
+    organization: MathWorks
+    type: technical_documentation
+    language: en
+    url: https://www.mathworks.com/help/antenna/ref/yagiuda.html
+    edition: "online documentation; exact revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Description"
+  - id: mw-horn
+    title: "Model, Analyze and Compare Horn Antennas"
+    organization: MathWorks
+    type: technical_documentation
+    language: en
+    url: https://www.mathworks.com/help/antenna/ug/model-analyze-and-compare-horn-antennas.html
+    edition: "online documentation; exact revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Applications"
+  - id: ni-rf-glossary
+    title: "Glossary for RF Common Terminology"
+    organization: NI
+    type: technical_documentation
+    language: en
+    url: https://www.ni.com/en/shop/data-acquisition/measurement-fundamentals/glossary-for-rf-common-terminology.html
+    edition: "online documentation; exact revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Antenna Array"
+  - id: rs-ota-testing
+    title: "Demystifying over-the-air testing"
+    organization: "Rohde & Schwarz"
+    type: technical_documentation
+    language: en
+    url: https://cdn.rohde-schwarz.com/ymkt/na/content/Demystifying-OTA-testing_wp_5216-3789-52_v0100.pdf
+    edition: "online version; revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "§2.2.1–2.2.6, antenna parameters"
+  - id: rs-return-loss-note
+    title: "Return loss and decoupling measurements on antenna systems"
+    organization: "Rohde & Schwarz"
+    type: technical_documentation
+    language: en
+    url: https://scdn.rohde-schwarz.com/ur/pws/dl_downloads/dl_application/application_notes/8nt11/8NT11_e_Edu_Note_ZPH_Antenna_Return-Loss_Decoupling_Measurements.pdf
+    edition: "online version; revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "§3.4.6, pp. 16–17, cable and antenna example"
+  - id: rs-cable-loss
+    title: "How to measure cable loss"
+    organization: "Rohde & Schwarz"
+    type: technical_documentation
+    language: en
+    url: https://www.rohde-schwarz.com/au/products/test-and-measurement/essentials-test-equipment/spectrum-analyzers/how-to-measure-cable-loss_258130.html
+    edition: "online version; revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Overview, one-port and two-port measurements"
+  - id: mw-polarized-fields
+    title: "Polarized Fields"
+    organization: "MathWorks"
+    type: technical_documentation
+    language: en
+    url: https://www.mathworks.com/help/phased/ug/polarized-fields.html
+    edition: "online version; revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Linear and Circular Polarization; Axial Ratio and Ellipticity Angle; Polarization Loss Due to Field and Receiver Mismatch"
+  - id: mw-field-calculation
+    title: "Field Calculation in Antennas"
+    organization: "MathWorks"
+    type: technical_documentation
+    language: en
+    url: https://www.mathworks.com/help/antenna/ug/field-calculation-in-antennas.html
+    edition: "online version; revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Directivity, Gain, Realized Gain"
+  - id: hs-rg174-u
+    title: "RG_174_/U, item 22510040"
+    organization: "HUBER+SUHNER"
+    type: manufacturer_datasheet
+    language: en
+    url: https://www.hubersuhner.com/Asset/eyJpZGVudGlmaWVyIjoxMTY0NzIsInR5cGUiOiJhc3NldCJ9/LG12quwLMRpIecqQ/H%2BS_RG_174_U_EN.PDF
+    edition: "PIM-P977, 2024-08-08"
+    published: null
+    accessed: "2026-10-31"
+    availability: "PDF available"
+    license: "copyright; reuse conditions unknown"
+    notes: "Electrical, Mechanical, Power Matrix pp. 1–2"
+  - id: hs-rg316-u
+    title: "RG_316_/U, item 22510079"
+    organization: "HUBER+SUHNER"
+    type: manufacturer_datasheet
+    language: en
+    url: https://www.hubersuhner.com/Asset/eyJpZGVudGlmaWVyIjoxMTY0NjMsInR5cGUiOiJhc3NldCJ9/KZOV2UhPqfMt4ZH8/H%2BS_RG_316_U_EN.PDF
+    edition: "PIM-P959, 2025-09-05"
+    published: null
+    accessed: "2026-10-31"
+    availability: "PDF available"
+    license: "copyright; reuse conditions unknown"
+    notes: "Construction, Electrical, Mechanical, Power Matrix pp. 1–2"
+  - id: times-lmr195
+    title: "LMR-195 Datasheet"
+    organization: "Times Microwave Systems"
+    type: manufacturer_datasheet
+    language: en
+    url: https://timesmicrowave.com/wp-content/uploads/2022/06/lmr-195-datasheet.pdf
+    edition: "catalog revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: "PDF available"
+    license: "copyright; reuse conditions unknown"
+    notes: "Construction, Electrical, Mechanical and typical attenuation; pp. 1–2"
+  - id: times-lmr240
+    title: "LMR-240 Datasheet"
+    organization: "Times Microwave Systems"
+    type: manufacturer_datasheet
+    language: en
+    url: https://timesmicrowave.com/wp-content/uploads/2022/06/lmr-240-datasheet.pdf
+    edition: "catalog revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: "PDF available"
+    license: "copyright; reuse conditions unknown"
+    notes: "Construction, Electrical, Mechanical and typical attenuation; pp. 1–2"
+  - id: times-lmr400
+    title: "LMR-400 Datasheet"
+    organization: "Times Microwave Systems"
+    type: manufacturer_datasheet
+    language: en
+    url: https://timesmicrowave.com/wp-content/uploads/2022/06/lmr-400-datasheet.pdf
+    edition: "catalog revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: "PDF available"
+    license: "copyright; reuse conditions unknown"
+    notes: "LMR-400 construction, electrical, mechanical and typical attenuation; printed pp. 24–25, PDF pp. 24–25 in linked catalog"
+  - id: rs-rf-fundamentals-mismatch
+    title: "RF Fundamentals Part 3: RF Components and Measurements"
+    organization: "Rohde & Schwarz"
+    type: technical_training
+    language: en
+    url: https://cdn.rohde-schwarz.com/ymkt/na/content/RF_fundamentals_seminar_materials/3_RF_Fun_-_Standing_Waves_Unc-Mismatch_VNA.pdf
+    edition: "online seminar slides; revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: "PDF available"
+    license: unknown
+    notes: "Slides 18, 30–31: reflection coefficient, VSWR and positive return loss; table rounded."

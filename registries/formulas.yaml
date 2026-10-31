@@ -91,6 +91,64 @@
       "tests": "tests/test_propagation.py",
       "verification": "source_and_numerical_checks_passed_automated_review",
       "review_record": "reports/reviews/free-space-flux-2026-10-31.json"
+    },
+    {
+      "formula_id": "reflection-vswr",
+      "name": "КСВН и модуль коэффициента отражения",
+      "expression": "VSWR = (1+rho)/(1-rho); rho = (VSWR-1)/(VSWR+1)",
+      "source_id": "rs-rf-fundamentals-mismatch",
+      "locator": "RF Fundamentals Part 3, slides 18 and 30, Mismatch Chart",
+      "symbols": {
+        "rho": "модуль коэффициента отражения, безразмерный",
+        "VSWR": "КСВН, безразмерный"
+      },
+      "domain": "0 <= rho <= 1; VSWR >= 1; при rho=1 VSWR бесконечен; обратная функция принимает конечный VSWR",
+      "assumptions": "пассивная нагрузка, опорный импеданс и одна измерительная плоскость",
+      "limitations": "модуль не содержит фазу; отношение не восстанавливает комплексный импеданс; слишком большой конечный КСВН может быть неразличим с rho=1 в float; реализация отказывает при округлении к границе.",
+      "constants": {},
+      "implementation": "calculations/antenna.py",
+      "tests": "tests/test_antenna_calculations.py",
+      "verification": "source_and_numerical_checks_passed_pending_review",
+      "review_record": "reports/verification-part03-calculations.md"
+    },
+    {
+      "formula_id": "return-loss-reflection",
+      "name": "Return loss и модуль коэффициента отражения",
+      "expression": "RL = -20 log10(rho) dB; rho = 10^(-RL/20)",
+      "source_id": "rs-rf-fundamentals-mismatch",
+      "locator": "RF Fundamentals Part 3, slides 18 and 30–31, Mismatch Chart",
+      "symbols": {
+        "rho": "модуль коэффициента отражения, безразмерный",
+        "RL": "положительный return loss, dB"
+      },
+      "domain": "0 <= rho <= 1, RL >= 0; rho=0 -> RL=+infinity; RL=+infinity -> rho=0",
+      "assumptions": "положительное соглашение return loss, пассивная нагрузка",
+      "limitations": "S11 dB magnitude = -RL, фазу восстановить нельзя; активные случаи вне модели; положительный конечный RL, дающий нулевой rho из-за underflow, вызывает ошибку.",
+      "constants": {},
+      "implementation": "calculations/antenna.py",
+      "tests": "tests/test_antenna_calculations.py",
+      "verification": "source_and_numerical_checks_passed_pending_review",
+      "review_record": "reports/verification-part03-calculations.md"
+    },
+    {
+      "formula_id": "uniform-cable-attenuation",
+      "name": "Оценка потерь однородного кабеля по длине",
+      "expression": "L_dB = a_dB_per_100m * length_m / 100",
+      "source_id": "rs-cable-loss",
+      "locator": "How to measure cable loss, Overview of cable loss measurement, relationship with length",
+      "symbols": {
+        "L_dB": "потеря, dB",
+        "a_dB_per_100m": "удельное затухание, dB/100 m",
+        "length_m": "длина, m"
+      },
+      "domain": "конечные a >= 0 dB/100m и length >= 0 m, результат представим в float",
+      "assumptions": "однородный кабель, одинаковые частота и условия паспорта, согласованный тракт",
+      "limitations": "без соединителей, повреждений, неопределённости, изменений температуры и несогласования; не экстраполировать за диапазон паспорта",
+      "constants": {},
+      "implementation": "calculations/antenna.py",
+      "tests": "tests/test_antenna_calculations.py",
+      "verification": "source_and_numerical_checks_passed_pending_review",
+      "review_record": "reports/verification-part03-calculations.md"
     }
   ]
 }
