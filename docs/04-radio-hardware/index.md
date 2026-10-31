@@ -2,10 +2,10 @@
 
 Рекомендуемый порядок чтения:
 
-1. [Передатчик и приёмник: состав и параметры](transmitter-receiver.md).
-2. [Радиомодемы и интерфейсы](radio-modems.md).
-3. [Усилители и фильтры в радиотракте](amplifiers-filters.md).
-4. [Чувствительность и динамический диапазон](sensitivity-dynamic-range.md).
-5. [Питание, тепловой режим и интеграция](power-thermal-integration.md).
+1. [4.1 Передатчик и приёмник: состав и параметры](transmitter-receiver.md).
+2. [4.2 Радиомодемы и интерфейсы](radio-modems.md).
+3. [4.3 Усилители и фильтры в радиотракте](amplifiers-filters.md).
+4. [4.4 Чувствительность и динамический диапазон](sensitivity-dynamic-range.md).
+5. [4.5 Питание, тепловой режим и интеграция](power-thermal-integration.md).
 
 Все материалы — черновики, исключённые из основного RAG. См. также [антенны](../03-antennas/index.md) и [диагностику](../09-diagnostics/cable-antenna.md).

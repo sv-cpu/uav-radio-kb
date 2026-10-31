@@ -1,3 +1,3 @@
 # Антенны
 
-Рекомендуемый порядок: [типы антенн](antenna-types.md), [диаграмма и усиление](pattern-gain.md), [поляризация](polarization.md), [согласование](matching-vswr.md), [размещение и кабели](placement-cables.md). Материалы являются черновиками и исключены из основного RAG. Для распространения см. [раздел 02](../02-wave-propagation/index.md), для измерений — [диагностику](../09-diagnostics/cable-antenna.md).
+Рекомендуемый порядок: [3.1 типы антенн](antenna-types.md), [3.2 диаграмма и усиление](pattern-gain.md), [3.3 поляризация](polarization.md), [3.4 согласование](matching-vswr.md), [3.5 размещение и кабели](placement-cables.md). Материалы являются черновиками и исключены из основного RAG. Для распространения см. [раздел 02](../02-wave-propagation/index.md), для измерений — [диагностику](../09-diagnostics/cable-antenna.md).

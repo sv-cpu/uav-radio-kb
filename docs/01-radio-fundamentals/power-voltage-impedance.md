@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "rf-power-voltage-impedance",
-  "title": "Мощность, напряжение, сопротивление и импеданс",
+  "title": "1.2 Мощность, напряжение, сопротивление и импеданс",
   "language": "ru",
   "section": "01-radio-fundamentals",
   "type": "concept",
@@ -26,7 +26,7 @@
     "sources": "passed",
     "formulas": "passed",
     "technical_review": "passed",
-    "review_record": "reports/reviews/part-01-2026-10-31.json"
+    "review_record": "reports/reviews/numbering-2026-10-31.json"
   },
   "rag": {
     "include": false
@@ -44,7 +44,7 @@
   ]
 }
 ---
-# Мощность, напряжение, сопротивление и импеданс
+# 1.2 Мощность, напряжение, сопротивление и импеданс
 
 ## Назначение и краткий ответ
 

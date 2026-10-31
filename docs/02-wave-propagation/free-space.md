@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "propagation-free-space",
-  "title": "Распространение в свободном пространстве",
+  "title": "2.1 Распространение в свободном пространстве",
   "language": "ru",
   "section": "02-wave-propagation",
   "type": "concept",
@@ -24,7 +24,7 @@
     "sources": "passed",
     "formulas": "passed",
     "technical_review": "passed",
-    "review_record": "reports/reviews/free-space-flux-2026-10-31.json"
+    "review_record": "reports/reviews/numbering-2026-10-31.json"
   },
   "rag": {
     "include": false
@@ -41,7 +41,7 @@
   ]
 }
 ---
-# Распространение в свободном пространстве
+# 2.1 Распространение в свободном пространстве
 
 ## Назначение и краткий ответ
 

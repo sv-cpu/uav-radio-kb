@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "hardware-radio-modem",
-  "title": "Радиомодемы и интерфейсы",
+  "title": "4.2 Радиомодемы и интерфейсы",
   "language": "ru",
   "section": "04-radio-hardware",
   "type": "concept",
@@ -32,7 +32,7 @@
   "formula_ids": []
 }
 ---
-# Радиомодемы и интерфейсы
+# 4.2 Радиомодемы и интерфейсы
 
 ## Назначение и краткий ответ
 

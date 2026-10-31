@@ -2,10 +2,10 @@
 
 Рекомендуемый порядок чтения:
 
-1. [Состав и функции канала управления](control-architecture.md).
-2. [Задержка, джиттер и частота обновления](latency-jitter.md).
-3. [Потери пакетов и обнаружение потери связи](packet-loss.md).
-4. [Failsafe и резервирование](failsafe-redundancy.md).
-5. [FHSS и DSSS: принципы и ограничения](fhss-dsss.md).
+1. [5.1 Состав и функции канала управления](control-architecture.md).
+2. [5.2 Задержка, джиттер и частота обновления](latency-jitter.md).
+3. [5.3 Потери пакетов и обнаружение потери связи](packet-loss.md).
+4. [5.4 Failsafe и резервирование](failsafe-redundancy.md).
+5. [5.5 FHSS и DSSS: принципы и ограничения](fhss-dsss.md).
 
 Все материалы — черновики, исключённые из основного RAG. См. также [антенны](../03-antennas/index.md) и [диагностику](../09-diagnostics/cable-antenna.md).

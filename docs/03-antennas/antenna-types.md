@@ -1,7 +1,59 @@
 ---
-{"schema_version":1,"id":"antenna-types","title":"Типы антенн и условия выбора","language":"ru","section":"03-antennas","type":"concept","summary":"Устройство, типичные диаграммы и ограничения распространённых антенн.","tags":["antenna","types"],"aliases":["типы антенн","dipole","monopole","patch","cloverleaf","helix","Yagi"],"status":"draft","created_at":"2026-10-31","updated_at":"2026-10-31","reviewed_at":null,"review_due":null,"verification":{"sources":"pending","formulas":"not_applicable","technical_review":"pending","review_record":null},"rag":{"include":false},"related":["antenna-pattern-gain","antenna-polarization","antenna-placement-cables"],"sources":["keysight-antenna-tips","mw-antenna-classification","mw-monopole","mw-patch","mw-cloverleaf","mw-helix","mw-yagi","mw-horn","ni-rf-glossary"],"formula_ids":[]}
+{
+  "schema_version": 1,
+  "id": "antenna-types",
+  "title": "3.1 Типы антенн и условия выбора",
+  "language": "ru",
+  "section": "03-antennas",
+  "type": "concept",
+  "summary": "Устройство, типичные диаграммы и ограничения распространённых антенн.",
+  "tags": [
+    "antenna",
+    "types"
+  ],
+  "aliases": [
+    "типы антенн",
+    "dipole",
+    "monopole",
+    "patch",
+    "cloverleaf",
+    "helix",
+    "Yagi"
+  ],
+  "status": "draft",
+  "created_at": "2026-10-31",
+  "updated_at": "2026-10-31",
+  "reviewed_at": null,
+  "review_due": null,
+  "verification": {
+    "sources": "pending",
+    "formulas": "not_applicable",
+    "technical_review": "pending",
+    "review_record": null
+  },
+  "rag": {
+    "include": false
+  },
+  "related": [
+    "antenna-pattern-gain",
+    "antenna-polarization",
+    "antenna-placement-cables"
+  ],
+  "sources": [
+    "keysight-antenna-tips",
+    "mw-antenna-classification",
+    "mw-monopole",
+    "mw-patch",
+    "mw-cloverleaf",
+    "mw-helix",
+    "mw-yagi",
+    "mw-horn",
+    "ni-rf-glossary"
+  ],
+  "formula_ids": []
+}
 ---
-# Типы антенн и условия выбора
+# 3.1 Типы антенн и условия выбора
 
 ## Вопрос и краткий ответ
 

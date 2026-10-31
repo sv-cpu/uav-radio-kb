@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "rf-bandwidth-noise-snr",
-  "title": "Полоса частот, шум и отношение сигнал/шум",
+  "title": "1.4 Полоса частот, шум и отношение сигнал/шум",
   "language": "ru",
   "section": "01-radio-fundamentals",
   "type": "concept",
@@ -27,7 +27,7 @@
     "sources": "passed",
     "formulas": "passed",
     "technical_review": "passed",
-    "review_record": "reports/reviews/part-01-2026-10-31.json"
+    "review_record": "reports/reviews/numbering-2026-10-31.json"
   },
   "rag": {
     "include": false
@@ -45,7 +45,7 @@
   ]
 }
 ---
-# Полоса частот, шум и отношение сигнал/шум
+# 1.4 Полоса частот, шум и отношение сигнал/шум
 
 ## Назначение и краткий ответ
 

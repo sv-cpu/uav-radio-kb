@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "control-failsafe-redundancy",
-  "title": "Failsafe и резервирование",
+  "title": "5.4 Failsafe и резервирование",
   "language": "ru",
   "section": "05-control-links",
   "type": "concept",
@@ -33,7 +33,7 @@
   "formula_ids": []
 }
 ---
-# Failsafe и резервирование
+# 5.4 Failsafe и резервирование
 
 ## Назначение и краткий ответ
 

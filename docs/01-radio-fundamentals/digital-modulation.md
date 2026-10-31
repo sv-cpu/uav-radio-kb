@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "rf-digital-modulation",
-  "title": "Основы модуляции и цифровой передачи",
+  "title": "1.5 Основы модуляции и цифровой передачи",
   "language": "ru",
   "section": "01-radio-fundamentals",
   "type": "concept",
@@ -27,7 +27,7 @@
     "sources": "passed",
     "formulas": "passed",
     "technical_review": "passed",
-    "review_record": "reports/reviews/part-01-2026-10-31.json"
+    "review_record": "reports/reviews/numbering-2026-10-31.json"
   },
   "rag": {
     "include": false
@@ -44,7 +44,7 @@
   ]
 }
 ---
-# Основы модуляции и цифровой передачи
+# 1.5 Основы модуляции и цифровой передачи
 
 ## Назначение и краткий ответ
 

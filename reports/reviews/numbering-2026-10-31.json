@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "reviewer": "Codex / automated editorial update",
+  "role": "automated_editor",
+  "method": "Только добавление номера в заголовок и title; техническое содержание не пересматривалось. Исторические записи сохранены; новая контрольная сумма фиксирует редакционную версию.",
+  "documents": {
+    "rf-frequency-wavelength": {
+      "path": "docs/01-radio-fundamentals/frequency-wavelength.md",
+      "sha256": "e09b269e31068ac4fdf51b30c37d7a88dd7a2a601a4ea26e4d91845788e67f2d",
+      "decision": "approved",
+      "previous_review": "reports/reviews/part-01-2026-10-31.json",
+      "previous_sha256": "74154f97137fbcfe4f4569d81c7f1341eb9ab9b2f5149ba18a6d5202388d288b",
+      "notes": "Редакционная нумерация заголовка; статус предыдущего технического ревью сохранён без утверждения о новом независимом ревью."
+    },
+    "rf-power-voltage-impedance": {
+      "path": "docs/01-radio-fundamentals/power-voltage-impedance.md",
+      "sha256": "80d8c3ce4b4fc419730c9d2061b8f7d1ab4c37847cbad5f2b6f6767ab845661b",
+      "decision": "approved",
+      "previous_review": "reports/reviews/part-01-2026-10-31.json",
+      "previous_sha256": "2dac39a2b0a80e2d61ad0ddfececb8d2625b158289fbfd5c78487d6e5e87258c",
+      "notes": "Редакционная нумерация заголовка; статус предыдущего технического ревью сохранён без утверждения о новом независимом ревью."
+    },
+    "rf-decibel-levels": {
+      "path": "docs/01-radio-fundamentals/decibels.md",
+      "sha256": "10702ea4729a99f142a3fbd74695eec47d5b3c9c886bf140046a2e011d1a38a0",
+      "decision": "approved",
+      "previous_review": "reports/reviews/part-01-2026-10-31.json",
+      "previous_sha256": "14768f44f3d0b2576f84b078254f64075dcf13d55767161e0ddc4200e106e537",
+      "notes": "Редакционная нумерация заголовка; статус предыдущего технического ревью сохранён без утверждения о новом независимом ревью."
+    },
+    "rf-bandwidth-noise-snr": {
+      "path": "docs/01-radio-fundamentals/bandwidth-noise-snr.md",
+      "sha256": "274a0b17ab21f3e7869816326bfcb86d8d078ed156ef390a9b681c2bec81904a",
+      "decision": "approved",
+      "previous_review": "reports/reviews/part-01-2026-10-31.json",
+      "previous_sha256": "fa373350e41d065bf58e0d8e83dc33d6c3a6baa82366cab0e1d601ed12cf0028",
+      "notes": "Редакционная нумерация заголовка; статус предыдущего технического ревью сохранён без утверждения о новом независимом ревью."
+    },
+    "rf-digital-modulation": {
+      "path": "docs/01-radio-fundamentals/digital-modulation.md",
+      "sha256": "6127ec3edf8064e4a8111ffe376674c80aa3ba59610f1578be77c4a6fae8741c",
+      "decision": "approved",
+      "previous_review": "reports/reviews/part-01-2026-10-31.json",
+      "previous_sha256": "1d40023b3d6deb672e561ff3f1d0a8a31b2262cb6537f0a94677bc8b2db875db",
+      "notes": "Редакционная нумерация заголовка; статус предыдущего технического ревью сохранён без утверждения о новом независимом ревью."
+    },
+    "propagation-free-space": {
+      "path": "docs/02-wave-propagation/free-space.md",
+      "sha256": "bec745f5dd563050c22b1352fb1ca4f96f2bcb35565be23cb1dbcf67b6dd669e",
+      "decision": "approved",
+      "previous_review": "reports/reviews/free-space-flux-2026-10-31.json",
+      "previous_sha256": "1c59a76225d99c397fd7736a503f6b0ffaf08536bece3a0660b59842163bdf29",
+      "notes": "Редакционная нумерация заголовка; статус предыдущего технического ревью сохранён без утверждения о новом независимом ревью."
+    },
+    "propagation-fresnel": {
+      "path": "docs/02-wave-propagation/line-of-sight-fresnel.md",
+      "sha256": "791f9aa0325c6a55106648105d1e784d5729c9a1452d6a49f9167d90dbffffea",
+      "decision": "approved",
+      "previous_review": "reports/reviews/part-02-2026-10-31.json",
+      "previous_sha256": "6dfb30705b57c285f1442841a20a5f4758a5b06024cb772d3a9decfa74573aea",
+      "notes": "Редакционная нумерация заголовка; статус предыдущего технического ревью сохранён без утверждения о новом независимом ревью."
+    },
+    "propagation-diffraction": {
+      "path": "docs/02-wave-propagation/reflection-diffraction.md",
+      "sha256": "aa79b0b8e63da10832997000c5bcb6c4c0029d1377edfde4e1923aaf4f267be0",
+      "decision": "approved",
+      "previous_review": "reports/reviews/part-02-2026-10-31.json",
+      "previous_sha256": "cd52bf5c7cca93ca97caadb2087ddd0f8e7d97009469aeffaf7c57df57f21e1e",
+      "notes": "Редакционная нумерация заголовка; статус предыдущего технического ревью сохранён без утверждения о новом независимом ревью."
+    },
+    "propagation-multipath": {
+      "path": "docs/02-wave-propagation/multipath-fading.md",
+      "sha256": "f2649ad950453b5f0dad50a24ae30731f3f43c24ed26da4dd3cc2ad5b42240af",
+      "decision": "approved",
+      "previous_review": "reports/reviews/part-02-2026-10-31.json",
+      "previous_sha256": "2a3dcd5b1b10d90292258ef554f71156fd3a3417456dd8ee0b12987f449779ee",
+      "notes": "Редакционная нумерация заголовка; статус предыдущего технического ревью сохранён без утверждения о новом независимом ревью."
+    },
+    "propagation-polarization-height": {
+      "path": "docs/02-wave-propagation/polarization-height.md",
+      "sha256": "c85aaa9c47a13c818e5137926039bac320ad9c97d42949e40cf8872c28110437",
+      "decision": "approved",
+      "previous_review": "reports/reviews/part-02-2026-10-31.json",
+      "previous_sha256": "6faf1c3e7954d83623886a7fc4bf07c19a36a71649e1a6ac076dd72e01a5010c",
+      "notes": "Редакционная нумерация заголовка; статус предыдущего технического ревью сохранён без утверждения о новом независимом ревью."
+    }
+  }
+}

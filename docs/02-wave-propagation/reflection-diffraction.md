@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "propagation-diffraction",
-  "title": "Отражение, дифракция и затенение",
+  "title": "2.3 Отражение, дифракция и затенение",
   "language": "ru",
   "section": "02-wave-propagation",
   "type": "concept",
@@ -26,7 +26,7 @@
     "sources": "passed",
     "formulas": "not_applicable",
     "technical_review": "passed",
-    "review_record": "reports/reviews/part-02-2026-10-31.json"
+    "review_record": "reports/reviews/numbering-2026-10-31.json"
   },
   "rag": {
     "include": false
@@ -42,7 +42,7 @@
   "formula_ids": []
 }
 ---
-# Отражение, дифракция и затенение
+# 2.3 Отражение, дифракция и затенение
 
 ## Назначение и краткий ответ
 

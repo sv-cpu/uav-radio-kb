@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "rf-frequency-wavelength",
-  "title": "Частота и длина волны",
+  "title": "1.1 Частота и длина волны",
   "language": "ru",
   "section": "01-radio-fundamentals",
   "type": "concept",
@@ -25,7 +25,7 @@
     "sources": "passed",
     "formulas": "passed",
     "technical_review": "passed",
-    "review_record": "reports/reviews/part-01-2026-10-31.json"
+    "review_record": "reports/reviews/numbering-2026-10-31.json"
   },
   "rag": {
     "include": false
@@ -41,7 +41,7 @@
   ]
 }
 ---
-# Частота и длина волны
+# 1.1 Частота и длина волны
 
 ## Назначение и краткий ответ
 

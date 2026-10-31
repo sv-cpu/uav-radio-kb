@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "rf-decibel-levels",
-  "title": "Децибелы и уровни мощности",
+  "title": "1.3 Децибелы и уровни мощности",
   "language": "ru",
   "section": "01-radio-fundamentals",
   "type": "concept",
@@ -26,7 +26,7 @@
     "sources": "passed",
     "formulas": "passed",
     "technical_review": "passed",
-    "review_record": "reports/reviews/part-01-2026-10-31.json"
+    "review_record": "reports/reviews/numbering-2026-10-31.json"
   },
   "rag": {
     "include": false
@@ -44,7 +44,7 @@
   ]
 }
 ---
-# Децибелы и уровни мощности
+# 1.3 Децибелы и уровни мощности
 
 ## Назначение и краткий ответ
 

@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "propagation-multipath",
-  "title": "Многолучёвость и замирания",
+  "title": "2.4 Многолучёвость и замирания",
   "language": "ru",
   "section": "02-wave-propagation",
   "type": "concept",
@@ -26,7 +26,7 @@
     "sources": "passed",
     "formulas": "not_applicable",
     "technical_review": "passed",
-    "review_record": "reports/reviews/part-02-2026-10-31.json"
+    "review_record": "reports/reviews/numbering-2026-10-31.json"
   },
   "rag": {
     "include": false
@@ -42,7 +42,7 @@
   "formula_ids": []
 }
 ---
-# Многолучёвость и замирания
+# 2.4 Многолучёвость и замирания
 
 ## Назначение и краткий ответ
 

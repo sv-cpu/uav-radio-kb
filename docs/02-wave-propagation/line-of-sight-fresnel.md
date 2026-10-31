@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "propagation-fresnel",
-  "title": "Прямая видимость и зоны Френеля",
+  "title": "2.2 Прямая видимость и зоны Френеля",
   "language": "ru",
   "section": "02-wave-propagation",
   "type": "concept",
@@ -25,7 +25,7 @@
     "sources": "passed",
     "formulas": "not_applicable",
     "technical_review": "passed",
-    "review_record": "reports/reviews/part-02-2026-10-31.json"
+    "review_record": "reports/reviews/numbering-2026-10-31.json"
   },
   "rag": {
     "include": false
@@ -40,7 +40,7 @@
   "formula_ids": []
 }
 ---
-# Прямая видимость и зоны Френеля
+# 2.2 Прямая видимость и зоны Френеля
 
 ## Назначение и краткий ответ
 

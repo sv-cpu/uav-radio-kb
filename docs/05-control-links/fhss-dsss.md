@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "control-fhss-dsss",
-  "title": "FHSS и DSSS: принципы и ограничения",
+  "title": "5.5 FHSS и DSSS: принципы и ограничения",
   "language": "ru",
   "section": "05-control-links",
   "type": "concept",
@@ -32,7 +32,7 @@
   "formula_ids": []
 }
 ---
-# FHSS и DSSS: принципы и ограничения
+# 5.5 FHSS и DSSS: принципы и ограничения
 
 ## Назначение и краткий ответ
 

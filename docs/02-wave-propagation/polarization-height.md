@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "propagation-polarization-height",
-  "title": "Поляризация, среда и высота антенн",
+  "title": "2.5 Поляризация, среда и высота антенн",
   "language": "ru",
   "section": "02-wave-propagation",
   "type": "concept",
@@ -25,7 +25,7 @@
     "sources": "passed",
     "formulas": "not_applicable",
     "technical_review": "passed",
-    "review_record": "reports/reviews/part-02-2026-10-31.json"
+    "review_record": "reports/reviews/numbering-2026-10-31.json"
   },
   "rag": {
     "include": false
@@ -41,7 +41,7 @@
   "formula_ids": []
 }
 ---
-# Поляризация, среда и высота антенн
+# 2.5 Поляризация, среда и высота антенн
 
 ## Назначение и краткий ответ
 
