@@ -1,0 +1,74 @@
+{
+  "formulas": [
+    {
+      "formula_id": "vacuum-wavelength",
+      "name": "Длина волны в вакууме",
+      "expression": "lambda = c / f",
+      "source_id": "bipm-si-9",
+      "locator": "SI Brochure, Appendix 1, CIPM 2002 Recommendation 1, recalling CIPM 1983 Recommendation 1, item (b), printed p. 178, PDF p. 68",
+      "symbols": {
+        "lambda": "длина волны, m",
+        "c": "скорость света в вакууме, m/s",
+        "f": "частота, Hz"
+      },
+      "constants": {
+        "c": "299792458 m/s, exact; BIPM SI Brochure section 2.2.1"
+      },
+      "domain": "конечная частота f > 0 Hz; результат представим как конечное положительное число",
+      "assumptions": "плоская электромагнитная волна в вакууме",
+      "limitations": "не описывает фазовую скорость в кабеле или другой среде; не определяет размер антенны",
+      "implementation": "calculations/wavelength.py",
+      "tests": "tests/test_formulas.py",
+      "verification": "source_and_numerical_checks_passed_automated_review",
+      "review_record": "reports/reviews/part-01-2026-10-31.json"
+    },
+    {
+      "formula_id": "resistive-rms-power",
+      "name": "Мощность на резистивной нагрузке",
+      "expression": "P = V_rms^2 / R",
+      "source_id": "adi-rf-power",
+      "locator": "Power, equation 1",
+      "symbols": "V_rms: V; R: ohm; P: W",
+      "constants": {},
+      "domain": "R > 0; V_rms >= 0",
+      "assumptions": "Идеальная постоянная резистивная нагрузка; средняя мощность",
+      "limitations": "Не применять без уточнения к произвольному комплексному импедансу.",
+      "implementation": "calculations/fundamentals.py",
+      "tests": "tests/test_fundamentals.py",
+      "verification": "source_and_numerical_checks_passed_automated_review",
+      "review_record": "reports/reviews/part-01-2026-10-31.json"
+    },
+    {
+      "formula_id": "power-level-db",
+      "name": "Уровень отношения мощностей",
+      "expression": "L = 10 log10(P / P0)",
+      "source_id": "bipm-si-9",
+      "locator": "SI Brochure, table 8, note m, printed p. 141, PDF p. 31",
+      "symbols": "P, P0: одинаковые единицы мощности; L: dB",
+      "constants": {},
+      "domain": "P > 0, P0 > 0",
+      "assumptions": "Безразмерное отношение мощностей; задана опора",
+      "limitations": "Не применять как формулу для непосредственного сложения мощностей в dBm.",
+      "implementation": "calculations/fundamentals.py",
+      "tests": "tests/test_fundamentals.py",
+      "verification": "source_and_numerical_checks_passed_automated_review",
+      "review_record": "reports/reviews/part-01-2026-10-31.json"
+    },
+    {
+      "formula_id": "symbol-bit-rate",
+      "name": "Скорость битов модулятора",
+      "expression": "Rb = k * Rs",
+      "source_id": "adi-pulse-an922",
+      "locator": "The Rectangular Pulse, paragraph beginning The pulses used to transmit symbols",
+      "symbols": "Rb: bit/s; k: bit/symbol; Rs: symbol/s",
+      "constants": {},
+      "domain": "k > 0; Rs >= 0",
+      "assumptions": "Фиксированное число бит на информационный символ",
+      "limitations": "Служебные символы и кодирование необходимо учитывать отдельно.",
+      "implementation": "calculations/fundamentals.py",
+      "tests": "tests/test_fundamentals.py",
+      "verification": "source_and_numerical_checks_passed_automated_review",
+      "review_record": "reports/reviews/part-01-2026-10-31.json"
+    }
+  ]
+}

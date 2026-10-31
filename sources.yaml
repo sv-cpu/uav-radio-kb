@@ -1,0 +1,102 @@
+sources:
+  - id: bipm-si-9
+    title: "The International System of Units (SI)"
+    organization: BIPM
+    type: metrology_brochure
+    language: en
+    url: https://www.bipm.org/en/publications/si-brochure
+    identifier: https://doi.org/10.59161/AUEZ1291
+    edition: "9th edition, updated 2026"
+    published: "2019; update 2026"
+    accessed: "2026-10-31"
+    availability: available
+    license: "CC BY 4.0, as stated on publication page"
+    notes: "English PDF accessed; Appendix 1, CIPM 2002 Recommendation 1 recalling CIPM 1983 Recommendation 1; table 8 note m."
+  - id: keysight-fieldfox-cat
+    title: "Chapter 3 CAT (Cable and Antenna Test) Mode"
+    organization: Keysight Technologies
+    type: manufacturer_manual
+    language: en
+    url: https://helpfiles.keysight.com/csg/B_Series_FieldFox_WebHelp/Chapter_3_CAT_%28Cable_and_Antenna_Test%29_Mode.htm
+    edition: "B Series; revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Manual for FieldFox B Series; model-specific details must not be generalized to every instrument."
+  - id: itu-p525-5
+    title: "Calculation of free-space attenuation"
+    organization: ITU-R
+    type: recommendation
+    language: en
+    url: https://www.itu.int/rec/R-REC-P.525/en
+    edition: "P.525-5 (11/2024)"
+    published: "2024-11"
+    accessed: "2026-10-31"
+    availability: "landing page available; full text not yet examined"
+    license: unknown
+    jurisdiction: "international recommendation; national applicability not established"
+    effective_from: unknown
+    effective_until: unknown
+    supersedes: "P.525-4"
+    notes: "Landing page lists P.525-5 as in force. Not yet used to substantiate a formula."
+  - id: adi-rf-power
+    title: "Measurement and Control of RF Power (Part I)"
+    organization: Analog Devices
+    type: technical_article
+    language: en
+    url: https://www.analog.com/en/resources/technical-articles/measurement-control-rf-power-partI.html
+    edition: "unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Sections Power; Converting Between dBm, dBmV, W, RMS and Peak-to-Peak Voltage; Definition of RMS."
+  - id: adi-impedance
+    title: "ADALM1000 SMU Training Topic 15: Impedance Measurement/Frequency Effects"
+    organization: Analog Devices
+    type: technical_tutorial
+    language: en
+    url: https://www.analog.com/en/resources/analog-dialogue/studentzone/studentzone-march-2019.html
+    edition: "unknown"
+    published: "2019-03"
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Impedance definitions and frequency dependence."
+  - id: adi-noise-mt230
+    title: "Noise Considerations in High Speed Converter Signal Chains"
+    organization: Analog Devices, Rob Reeder
+    type: application_note
+    language: en
+    url: https://www.analog.com/media/en/training-seminars/tutorials/MT-230.pdf
+    edition: "MT-230 Rev. A"
+    published: "2015-04 revision history"
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Introduction and Noise Bandwidth; printed and PDF p. 1."
+  - id: adi-pulse-an922
+    title: "AN-922: Digital Pulse-Shaping Filter Basics"
+    organization: Analog Devices
+    type: application_note
+    language: en
+    url: https://www.analog.com/en/resources/app-notes/an-922.html
+    edition: "unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "Introduction, Background, and discussion of symbol rate and pulse shaping."
+  - id: keysight-qpsk
+    title: "QPSK (Digital Demod)"
+    organization: Keysight Technologies
+    type: manufacturer_manual
+    language: en
+    url: https://helpfiles.keysight.com/csg/89600B/Webhelp/Subsystems/digdemod/content/dlg_digdemod_fmt_qpsk.htm
+    edition: "89600B web help; revision unknown"
+    published: null
+    accessed: "2026-10-31"
+    availability: available
+    license: unknown
+    notes: "QPSK definition and four phase values; instrument documentation."

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "reviewer": "Codex / gpt-6.1-sol",
+  "role": "automated_model_reviewer",
+  "independent_human_review": false,
+  "method": "Повторное чтение первоисточников; проверка определения, единиц, области применимости и примеров; реализация и тесты четырёх формул. Сохранён контекст исходного автора, поэтому проверка не является слепым независимым ревью.",
+  "limits": "Проверка вводных статей в обозначенной области применимости. Нет аппаратных измерений, человеческого экспертного ревью и оценки поиска. rag.include остаётся false.",
+  "documents": {
+    "rf-bandwidth-noise-snr": {
+      "path": "docs/01-radio-fundamentals/bandwidth-noise-snr.md",
+      "sha256": "fa373350e41d065bf58e0d8e83dc33d6c3a6baa82366cab0e1d601ed12cf0028",
+      "decision": "approved",
+      "notes": "Согласована после уточнения локаторов и завершения численных проверок.",
+      "source_ids": [
+        "bipm-si-9",
+        "adi-noise-mt230"
+      ],
+      "formula_ids": [
+        "power-level-db"
+      ]
+    },
+    "rf-decibel-levels": {
+      "path": "docs/01-radio-fundamentals/decibels.md",
+      "sha256": "14768f44f3d0b2576f84b078254f64075dcf13d55767161e0ddc4200e106e537",
+      "decision": "approved",
+      "notes": "Согласована после уточнения локаторов и завершения численных проверок.",
+      "source_ids": [
+        "bipm-si-9",
+        "adi-rf-power"
+      ],
+      "formula_ids": [
+        "power-level-db"
+      ]
+    },
+    "rf-digital-modulation": {
+      "path": "docs/01-radio-fundamentals/digital-modulation.md",
+      "sha256": "1d40023b3d6deb672e561ff3f1d0a8a31b2262cb6537f0a94677bc8b2db875db",
+      "decision": "approved",
+      "notes": "Согласована после уточнения локаторов и завершения численных проверок.",
+      "source_ids": [
+        "adi-pulse-an922",
+        "keysight-qpsk"
+      ],
+      "formula_ids": [
+        "symbol-bit-rate"
+      ]
+    },
+    "rf-frequency-wavelength": {
+      "path": "docs/01-radio-fundamentals/frequency-wavelength.md",
+      "sha256": "74154f97137fbcfe4f4569d81c7f1341eb9ab9b2f5149ba18a6d5202388d288b",
+      "decision": "approved",
+      "notes": "Согласована после уточнения локаторов и завершения численных проверок.",
+      "source_ids": [
+        "bipm-si-9"
+      ],
+      "formula_ids": [
+        "vacuum-wavelength"
+      ]
+    },
+    "rf-power-voltage-impedance": {
+      "path": "docs/01-radio-fundamentals/power-voltage-impedance.md",
+      "sha256": "2dac39a2b0a80e2d61ad0ddfececb8d2625b158289fbfd5c78487d6e5e87258c",
+      "decision": "approved",
+      "notes": "Согласована после уточнения локаторов и завершения численных проверок.",
+      "source_ids": [
+        "bipm-si-9",
+        "adi-rf-power",
+        "adi-impedance"
+      ],
+      "formula_ids": [
+        "resistive-rms-power"
+      ]
+    }
+  },
+  "evidence": {
+    "vacuum-wavelength": "BIPM V4.01, Appendix 1, CIPM 2002 Recommendation 1 quoting CI-1983, item b, printed p. 178 / PDF p. 68; c and Hz: section 2.2.1 and table 4. Analytic reference c Hz -> 1 m.",
+    "resistive-rms-power": "Analog Devices RF Power, Power and Definition of RMS: pure resistance, RMS. 1 V / 50 ohm -> 0.02 W; V squared / ohm = W.",
+    "power-level-db": "BIPM table 8 note m, printed p. 141 / PDF p. 31; powers positive, dimensionless ratio. ADI RF Power defines dBm. Analytic log10 powers of ten: 0, 10, -30, 30 dB. Absolute test tolerance 1e-12 dB for floating-point roundoff.",
+    "symbol-bit-rate": "ADI AN-922 The Rectangular Pulse defines baud and bit rate; Keysight QPSK introductory paragraphs confirm four states / two bits. Fixed mapping: 100000 symbols/s times 2 bits/symbol = 200000 bit/s, exact integer reference."
+  },
+  "artifacts": {
+    "registries/formulas.yaml": "ca0bd2d629fc0bd7f5762dbd5d61f9193a15cbcade52a5adf5a1b6ee6533e15a",
+    "calculations/wavelength.py": "c2f156572aa522e9fc1732a48d3eafb316bf95f658f86435da27e821a3f3f2b1",
+    "calculations/fundamentals.py": "695674ba32e78871ba56e266a8cc52294c72a7f39737f05bdbeeeb237574bd42",
+    "tests/test_formulas.py": "219f8898b89ae98017f1a8909fc67be141ace45051f4e35707ec80aa94a6f684",
+    "tests/test_fundamentals.py": "12ae90b264590a8150d4a6ff822b55cb967581e283fd32d766afb1ec33a87cf7"
+  },
+  "validation_results": {
+    "unittest": "16 tests passed, python -m unittest discover -s tests -v",
+    "metadata": "python -m scripts.validate passed",
+    "limitations": "Only initial metadata checks; no full JSON Schema, external-link scanner or retrieval evaluation."
+  }
+}
