@@ -33,13 +33,77 @@ sources:
     edition: "P.525-5 (11/2024)"
     published: "2024-11"
     accessed: "2026-10-31"
-    availability: "landing page available; full text not yet examined"
-    license: unknown
+    availability: "full English PDF available and examined, 2026-10-31"
+    license: "ITU copyright; all rights reserved, see PDF"
     jurisdiction: "international recommendation; national applicability not established"
     effective_from: unknown
     effective_until: unknown
     supersedes: "P.525-4"
-    notes: "Landing page lists P.525-5 as in force. Not yet used to substantiate a formula."
+    notes: "P.525-5, Annex sections 1 and 2.3 read; formula implementation and independent review remain pending."
+  - id: itu-p526-15
+    title: "Propagation by diffraction"
+    organization: ITU-R
+    type: recommendation
+    language: en
+    url: https://www.itu.int/dms_pubrec/itu-r/rec/p/R-REC-P.526-15-201910-S%21%21PDF-E.pdf
+    edition: "P.526-15 (10/2019)"
+    published: "2019-10"
+    accessed: "2026-10-31"
+    availability: "full English PDF available"
+    license: "ITU copyright; all rights reserved"
+    jurisdiction: "international recommendation; national applicability not established"
+    effective_from: unknown
+    effective_until: unknown
+    superseded_by: "P.526-16 (11/2025)"
+    notes: "Superseded edition; sections 2.1, 2.6 and 4 consulted. Current edition P.526-16 PDF could not be fetched; compare before approval."
+  - id: itu-p526-16-fr
+    title: "Propagation par diffraction"
+    organization: ITU-R
+    type: recommendation
+    language: fr
+    url: https://www.itu.int/dms_pubrec/itu-r/rec/p/R-REC-P.526-16-202511-I%21%21PDF-F.pdf
+    edition: "P.526-16 (11/2025), French publication 2026"
+    published: "2025-11 recommendation; French PDF posted 2026-06-12"
+    accessed: "2026-10-31"
+    availability: "French PDF available; English PDF timed out"
+    license: "ITU copyright; all rights reserved"
+    jurisdiction: "international recommendation; national applicability not established"
+    effective_from: unknown
+    effective_until: unknown
+    supersedes: "P.526-15"
+    notes: "Current edition confirmed on ITU landing page; Annex 1 sections 1, 2.1, 2.6 and section 4 model headings examined. This does not establish national regulatory applicability."
+  - id: itu-p1406-2
+    title: "Propagation effects relating to terrestrial land mobile and broadcasting services in the VHF and UHF bands"
+    organization: ITU-R
+    type: recommendation
+    language: en
+    url: https://www.itu.int/dms_pubrec/itu-r/rec/p/R-REC-P.1406-2-201507-I%21%21PDF-E.pdf
+    edition: "P.1406-2 (07/2015)"
+    published: "2015-07"
+    accessed: "2026-10-31"
+    availability: "full English PDF available"
+    license: "ITU copyright; all rights reserved"
+    jurisdiction: "international recommendation; national applicability not established"
+    effective_from: unknown
+    effective_until: unknown
+    superseded_by: unknown
+    notes: "Terrestrial land mobile and broadcasting VHF/UHF; sections 3.2.1, 3.2.2, 3.3 and 5.1 consulted; transfer to aerial scenarios requires justification."
+  - id: itu-p530-19
+    title: "Propagation data and prediction methods required for the design of terrestrial line-of-sight systems"
+    organization: ITU-R
+    type: recommendation
+    language: en
+    url: https://www.itu.int/dms_pubrec/itu-r/rec/p/R-REC-P.530-19-202509-I%21%21PDF-E.pdf
+    edition: "P.530-19 (09/2025)"
+    published: "2025-09"
+    accessed: "2026-10-31"
+    availability: "full English PDF available"
+    license: "ITU copyright; all rights reserved"
+    jurisdiction: "international recommendation; national applicability not established"
+    effective_from: unknown
+    effective_until: unknown
+    superseded_by: unknown
+    notes: "Section 2.3; fixed terrestrial line-of-sight links, not a validated model of a moving UAV link."
   - id: adi-rf-power
     title: "Measurement and Control of RF Power (Part I)"
     organization: Analog Devices

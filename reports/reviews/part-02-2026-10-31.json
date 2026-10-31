@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "reviewer": "Codex / gpt-6.1-sol",
+  "role": "automated_model_reviewer",
+  "independent_human_review": false,
+  "method": "Чтение указанных разделов ITU-R; проверка терминов, ограничений и локаторов. Сохранён контекст автора, независимого экспертного ревью нет.",
+  "documents": {
+    "propagation-free-space": {
+      "path": "docs/02-wave-propagation/free-space.md",
+      "sha256": "57ab251ff9a77698102e00f77f347aaf546a46130b113da967302a938480e408",
+      "decision": "needs_revision",
+      "notes": "Численный вывод об изменении плотности потока корректен по P.525-5 (3), но зависимость ещё не зарегистрирована, не реализована и не протестирована.",
+      "source_ids": [
+        "itu-p525-5"
+      ]
+    },
+    "propagation-fresnel": {
+      "path": "docs/02-wave-propagation/line-of-sight-fresnel.md",
+      "sha256": "6dfb30705b57c285f1442841a20a5f4758a5b06024cb772d3a9decfa74573aea",
+      "decision": "approved",
+      "notes": "Согласовано как вводная качественная статья без расчётных формул.",
+      "source_ids": [
+        "itu-p526-16-fr"
+      ]
+    },
+    "propagation-multipath": {
+      "path": "docs/02-wave-propagation/multipath-fading.md",
+      "sha256": "2a3dcd5b1b10d90292258ef554f71156fd3a3417456dd8ee0b12987f449779ee",
+      "decision": "approved",
+      "notes": "Согласовано как вводная качественная статья без расчётных формул.",
+      "source_ids": [
+        "itu-p1406-2",
+        "itu-p530-19"
+      ]
+    },
+    "propagation-polarization-height": {
+      "path": "docs/02-wave-propagation/polarization-height.md",
+      "sha256": "6faf1c3e7954d83623886a7fc4bf07c19a36a71649e1a6ac076dd72e01a5010c",
+      "decision": "approved",
+      "notes": "Согласовано как вводная качественная статья без расчётных формул.",
+      "source_ids": [
+        "itu-p1406-2",
+        "itu-p530-19"
+      ]
+    },
+    "propagation-diffraction": {
+      "path": "docs/02-wave-propagation/reflection-diffraction.md",
+      "sha256": "cd52bf5c7cca93ca97caadb2087ddd0f8e7d97009469aeffaf7c57df57f21e1e",
+      "decision": "approved",
+      "notes": "Согласовано как вводная качественная статья без расчётных формул.",
+      "source_ids": [
+        "itu-p526-16-fr",
+        "itu-p1406-2"
+      ]
+    }
+  },
+  "evidence": {
+    "itu-p526-16-fr": "Annexe 1: §1 refraction; §2.1 ellipsoids and planar Fresnel zones, printed pp.3–4 / PDF pp.5–6; §2.6 terrain, printed p.5 / PDF p.7; §4 headings. French official version, English PDF timed out.",
+    "itu-p1406-2": "§3.2.1 shadowing; §§3.2.2–3.3 fading and local reflections, printed pp.3–4 / PDF pp.5–6; §5.1 depolarization, printed p.7 / PDF p.9.",
+    "itu-p530-19": "Scope: fixed digital LoS; §2.3, printed p.8 / PDF p.10: surface/atmospheric multipath and frequency-selective fading.",
+    "itu-p525-5": "Annex §§1, 2.2–2.3, equation 3: inverse-square flux density, far-field assumption. Numerical relationship not registered/tested in this repository."
+  },
+  "validation_results": {
+    "tests": "16 unittest tests passed",
+    "metadata": "initial metadata validator passed",
+    "limits": "No full schema validation, hardware testing, human review or retrieval evaluation."
+  }
+}

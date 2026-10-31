@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "reviewer": "Codex / gpt-6.1-sol",
+  "role": "automated_model_reviewer",
+  "independent_human_review": false,
+  "method": "Сверка P.525-5 (3), единиц и области; аналитический эталон, независимое десятичное значение, масштабирование и ошибочные входы.",
+  "documents": {
+    "propagation-free-space": {
+      "path": "docs/02-wave-propagation/free-space.md",
+      "sha256": "1c59a76225d99c397fd7736a503f6b0ffaf08536bece3a0660b59842163bdf29",
+      "decision": "approved",
+      "notes": "Зависимость зарегистрирована, реализована и протестирована; закрыто замечание предыдущего ревью."
+    }
+  },
+  "supersedes_for_document": "reports/reviews/part-02-2026-10-31.json: propagation-free-space",
+  "formula_checks": {
+    "source": "P.525-5 Annex §2.2 (3), printed p.2 / PDF p.4; p definition printed p.3 / PDF p.5.",
+    "dimension": "W / m²",
+    "reference": "Аналитически p=4*pi W, d=1 m -> s=1 W/m²; независимо округлённое 1/(4*pi)=0.079577471545948 W/m² для 1 W, 1 m.",
+    "tolerance": "5e-16 W/m² для десятичного эталона: половина последнего знака; 1e-15 для аналитического случая, запас на двоичное округление. Проверки масштабирования с delta 1e-21 W/m² при значениях порядка 1e-6.",
+    "physical_limits": "Дальний участок свободного пространства, заданное направление EIRP; функция не устанавливает границу ближнего поля."
+  },
+  "artifacts": {
+    "calculations/propagation.py": "eba1f417cbb972a7037189eb7ec4658ac0b5317f8a941cd2d1ba38de8753c013",
+    "tests/test_propagation.py": "7cafc2003d444aba1a94161e70483a9a256e2c65db7f2518366d45c6e8a502ca",
+    "registries/formulas.yaml": "a5657657bb2b643db0271e2d17468ce5b6a80688a69d42e28109a6dce5ad1085"
+  },
+  "limits": "Автоматизированное ревью с сохранённым контекстом автора. Измерения и независимое человеческое экспертное ревью отсутствуют; основной RAG не включён.",
+  "validation_results": {
+    "command": "python -m unittest discover -s tests -v",
+    "result": "23 tests passed, including 7 new flux tests",
+    "metadata": "python -m scripts.validate passed"
+  }
+}

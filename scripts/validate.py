@@ -71,8 +71,11 @@ def validate(root=ROOT):
             if rag['include'] and meta['status'] != 'verified':
                 raise ValueError('unverified material cannot enter main RAG')
             if meta['status'] == 'verified':
-                if any(verification.get(key) != 'passed' for key in ('sources', 'formulas', 'technical_review')):
+                if any(verification.get(key) != 'passed' for key in ('sources', 'technical_review')):
                     raise ValueError('verified material requires passed checks')
+                expected_formula_status = 'passed' if meta['formula_ids'] else 'not_applicable'
+                if verification.get('formulas') != expected_formula_status:
+                    raise ValueError('formula verification status does not match formula_ids')
                 record_path = (root / verification['review_record']).resolve()
                 if not record_path.is_relative_to(root.resolve()) or not record_path.is_file():
                     raise ValueError('missing or invalid review record')

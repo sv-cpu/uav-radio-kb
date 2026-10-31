@@ -69,6 +69,28 @@
       "tests": "tests/test_fundamentals.py",
       "verification": "source_and_numerical_checks_passed_automated_review",
       "review_record": "reports/reviews/part-01-2026-10-31.json"
+    },
+    {
+      "formula_id": "free-space-power-flux",
+      "name": "Плотность потока мощности в свободном пространстве",
+      "expression": "s = p / (4*pi*d^2)",
+      "source_id": "itu-p525-5",
+      "locator": "Annex, section 2.2, equation (3), printed p.2 / PDF p.4; p defined printed p.3 / PDF p.5; far-field condition section 1",
+      "symbols": {
+        "s": "плотность потока, W/m²",
+        "p": "EIRP в направлении точки наблюдения, W",
+        "d": "расстояние от передатчика, m"
+      },
+      "constants": {
+        "pi": "математическая константа pi; math.pi binary64"
+      },
+      "domain": "Конечные p >= 0 W, d > 0 m; положительный результат должен быть представим в float.",
+      "assumptions": "Свободное пространство; точка вне ближнего поля, локально плоская волна; EIRP задана в рассматриваемом направлении.",
+      "limitations": "Не определяет допустимость дальнего поля по одному d; не учитывает отражения, препятствия и поглощение. Не является мощностью на выходе приёмника или полной формулой потерь линии.",
+      "implementation": "calculations/propagation.py",
+      "tests": "tests/test_propagation.py",
+      "verification": "source_and_numerical_checks_passed_automated_review",
+      "review_record": "reports/reviews/free-space-flux-2026-10-31.json"
     }
   ]
 }
