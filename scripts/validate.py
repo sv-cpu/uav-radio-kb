@@ -13,12 +13,21 @@ SECTIONS = {'01-radio-fundamentals', '02-wave-propagation', '03-antennas', '04-r
 REQUIRED = {'schema_version', 'id', 'title', 'language', 'section', 'type', 'summary', 'tags', 'aliases', 'status', 'created_at', 'updated_at', 'reviewed_at', 'review_due', 'verification', 'rag', 'related', 'sources', 'formula_ids'}
 
 
+def unique_keys(pairs):
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError('duplicate metadata key: ' + key)
+        result[key] = value
+    return result
+
+
 def read_article(path):
     raw = path.read_text(encoding='utf-8')
     parts = raw.split('---\n', 2)
     if len(parts) != 3 or parts[0] != '':
         raise ValueError('missing front matter delimiters')
-    meta = json.loads(parts[1])
+    meta = json.loads(parts[1], object_pairs_hook=unique_keys)
     if not isinstance(meta, dict):
         raise ValueError('front matter must be an object')
     return meta, parts[2].strip()
@@ -48,6 +57,10 @@ def validate(root=ROOT):
                 raise ValueError('invalid schema version, language, type or status')
             if meta['section'] not in SECTIONS or path.parent.name != meta['section']:
                 raise ValueError('invalid section or path')
+            if meta['type'] == 'standard':
+                for field in ('jurisdiction', 'standard_id'):
+                    if not isinstance(meta.get(field), str) or not meta[field].strip():
+                        raise ValueError('standard requires nonempty ' + field)
             for field in ('title', 'summary'):
                 if not isinstance(meta[field], str) or not meta[field].strip():
                     raise ValueError('empty ' + field)

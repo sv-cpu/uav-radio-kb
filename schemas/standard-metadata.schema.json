@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sv-cpu/uav-radio-kb/schemas/standard-metadata.schema.json",
+  "title": "Дополнительные метаданные нормативного материала",
+  "description": "Применяется к front matter материала с type=standard; проверка схемы целой статьи пока не реализована.",
+  "type": "object",
+  "required": ["type", "jurisdiction", "standard_id"],
+  "properties": {
+    "type": {"const": "standard"},
+    "jurisdiction": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "standard_id": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "review_due": {"type": ["string", "null"], "format": "date"}
+  }
+}
