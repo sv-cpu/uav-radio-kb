@@ -31,20 +31,21 @@
     "лепесток",
     "всенаправленная антенна"
   ],
-  "status": "draft",
+  "status": "verified",
   "created_at": "2026-10-31",
   "updated_at": "2026-11-01",
-  "reviewed_at": null,
+  "reviewed_at": "2026-11-01",
   "review_due": null,
   "verification": {
-    "sources": "pending",
+    "sources": "passed",
     "formulas": "not_applicable",
-    "technical_review": "pending",
-    "review_record": null
+    "technical_review": "passed",
+    "review_record": "reports/reviews/antenna-pattern-gain-owner-2026-11-01.json"
   },
   "rag": {
     "include": false
   },
+
   "related": [
     "antenna-types",
     "antenna-polarization",
@@ -114,7 +115,7 @@
 
 ## Связанные материалы и источники
 
-Статья — черновик. Карта базы: [3.1 типы](antenna-types.md); [3.3 поляризация](polarization.md); [3.4 согласование](matching-vswr.md); [3.5 размещение и кабели](placement-cables.md); [2.1 свободное пространство](../02-wave-propagation/free-space.md).
+Версия согласована владельцем; основной RAG выключен. Карта базы: [3.1 типы](antenna-types.md); [3.3 поляризация](polarization.md); [3.4 согласование](matching-vswr.md); [3.5 размещение и кабели](placement-cables.md); [2.1 свободное пространство](../02-wave-propagation/free-space.md).
 
 Модель в свободном пространстве не воспроизводит автоматически отражения и экранирование корпусом. Проверка отражения на входе сама по себе не измеряет усиление и диаграмму.
 
