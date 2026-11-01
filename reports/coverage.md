@@ -24,4 +24,6 @@
 
 Статья 3.4 доработана по [чеклисту](checklist-article-3.4.md): рамка тракта БПЛА и полосы, допуск изделия, согласующая цепь, расширенные related/aliases, вопросы `a23`–`a25`. 2026-11-01 владелец согласовал 3.4: статус `verified`, запись [ревью](reviews/antenna-matching-vswr-owner-2026-11-01.json); `rag.include` остаётся false.
 
-Статья 3.2 доработана по [чеклисту](checklist-article-3.2.md): борт/земля, полоса, паспорт vs установка, EIRP/дальность, related/aliases, вопросы `a26`–`a28`. 2026-11-01 владелец согласовал 3.2: статус `verified`, запись [ревью](reviews/antenna-pattern-gain-owner-2026-11-01.json); `rag.include` остаётся false. Статьи 3.3 и 3.5 — draft.
+Статья 3.2 доработана по [чеклисту](checklist-article-3.2.md): борт/земля, полоса, паспорт vs установка, EIRP/дальность, related/aliases, вопросы `a26`–`a28`. 2026-11-01 владелец согласовал 3.2: статус `verified`, запись [ревью](reviews/antenna-pattern-gain-owner-2026-11-01.json); `rag.include` остаётся false.
+
+Статья 3.5 доработана по [чеклисту](checklist-article-3.5.md): краткий ответ и порядок, борт/земля, частота паспорта, разъёмы SMA/RP-SMA, related/aliases, вопросы `a29`–`a31`. Статус остаётся `draft` до согласования владельцем; `rag.include: false`. Статья 3.3 — draft.
