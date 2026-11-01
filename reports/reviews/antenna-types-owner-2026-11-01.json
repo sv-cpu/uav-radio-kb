@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-01",
+  "reviewer": "sv-cpu (владелец репозитория)",
+  "role": "owner_content_review",
+  "independent_human_review": false,
+  "owner_approval_note": "reports/reviews/antenna-types-owner-2026-11-01.md",
+  "method": "Владелец проверил и согласовал содержание статьи 3.1 сообщением в чате: «статья 3.1 проверена и согласована мной». Зафиксирована контрольная сумма версии на момент согласования.",
+  "documents": {
+    "antenna-types": {
+      "path": "docs/03-antennas/antenna-types.md",
+      "sha256": "284bd2dd6ceb5e0bd3101192e4f6fbe498c15d2d5509deaab07b466ee34c0d09",
+      "decision": "approved",
+      "notes": "Согласовано владельцем. Служебные инструкции агента из текста ранее убраны. rag.include остаётся false.",
+      "source_ids": [
+        "keysight-antenna-tips",
+        "mw-antenna-classification",
+        "mw-monopole",
+        "mw-patch",
+        "mw-cloverleaf",
+        "mw-helix",
+        "mw-yagi",
+        "mw-horn",
+        "ni-rf-glossary"
+      ],
+      "formula_ids": []
+    }
+  },
+  "limits": "Ревью владельцем, не независимое внешнее экспертное ревью. Аппаратные измерения и допуск в основной RAG отсутствуют.",
+  "validation_results": {
+    "metadata": "python -m scripts.validate",
+    "note": "Проверка метаданных и контрольной суммы выполняется при записи статуса verified"
+  }
+}
