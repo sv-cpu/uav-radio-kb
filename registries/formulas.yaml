@@ -147,8 +147,8 @@
       "constants": {},
       "implementation": "calculations/antenna.py",
       "tests": "tests/test_antenna_calculations.py",
-      "verification": "source_and_numerical_checks_passed_pending_review",
-      "review_record": "reports/verification-part03-calculations.md"
+      "verification": "source_and_numerical_checks_passed_owner_article_review",
+      "review_record": "reports/reviews/antenna-placement-cables-owner-2026-11-01.json"
     }
   ]
 }

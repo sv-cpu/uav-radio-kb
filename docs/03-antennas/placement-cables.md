@@ -34,16 +34,16 @@
     "LMR-400",
     "LMR-600"
   ],
-  "status": "draft",
+  "status": "verified",
   "created_at": "2026-10-31",
   "updated_at": "2026-11-01",
-  "reviewed_at": null,
+  "reviewed_at": "2026-11-01",
   "review_due": null,
   "verification": {
-    "sources": "pending",
-    "formulas": "pending",
-    "technical_review": "pending",
-    "review_record": null
+    "sources": "passed",
+    "formulas": "passed",
+    "technical_review": "passed",
+    "review_record": "reports/reviews/antenna-placement-cables-owner-2026-11-01.json"
   },
   "rag": {
     "include": false
@@ -190,7 +190,7 @@
 
 Условный пример: для конкретного Times Microwave LMR-195 паспорт приводит `a = 36,5 dB/100 m` при 900 MHz, +25 °C и КСВН 1,0. Для условного отрезка `l = 2 m` расчёт даёт `L = 36,5 × 2 / 100 = 0,73 dB`. При 4 m в той же модели получается 1,46 dB. Это не измерение сборки: отдельно нужно учесть разъёмы, несогласование и реальную температуру. При другой частоте требуется соответствующая строка паспорта.
 
-Реализация `calculations/antenna.py`, функция `cable_loss_db`, принимает неотрицательные конечные значения в указанных единицах. Граничный случай нулевой длины даёт нулевую потерю модели. Тесты проверяют пример и изменение длины; они не устанавливают реальные потери конкретного экземпляра. Численные проверки зарегистрированы; **независимое экспертное ревью формулы и статьи не завершено** (см. `registries/formulas.yaml`, `uniform-cable-attenuation`).
+Реализация `calculations/antenna.py`, функция `cable_loss_db`, принимает неотрицательные конечные значения в указанных единицах. Граничный случай нулевой длины даёт нулевую потерю модели. Тесты проверяют пример и изменение длины; они не устанавливают реальные потери конкретного экземпляра. Численные проверки зарегистрированы; формула включена в согласование владельцем статьи (см. `registries/formulas.yaml`, `uniform-cable-attenuation`). Независимое внешнее экспертное ревью при этом не заявлялось.
 
 ## Какие параметры записывать при выборе
 
@@ -228,6 +228,6 @@
 
 ## Связанные материалы и источники
 
-Статья остаётся черновиком до согласования владельцем; основной RAG выключен. Карта базы: [3.1 типы](antenna-types.md); [3.2 диаграмма и усиление](pattern-gain.md); [3.3 поляризация](polarization.md); [3.4 согласование](matching-vswr.md); [4.1 передатчик и приёмник](../04-radio-hardware/transmitter-receiver.md); [9.1 диагностика](../09-diagnostics/cable-antenna.md); [2.3 высота и поляризация трассы](../02-wave-propagation/polarization-height.md).
+Версия согласована владельцем; основной RAG выключен. Карта базы: [3.1 типы](antenna-types.md); [3.2 диаграмма и усиление](pattern-gain.md); [3.3 поляризация](polarization.md); [3.4 согласование](matching-vswr.md); [4.1 передатчик и приёмник](../04-radio-hardware/transmitter-receiver.md); [9.1 диагностика](../09-diagnostics/cable-antenna.md); [2.3 высота и поляризация трассы](../02-wave-propagation/polarization-height.md).
 
 [Keysight, Antenna Performance Tips](https://www.keysight.com/us/en/assets/7018-06498/ebooks/5992-3662.pdf), Tip 3; [Rohde & Schwarz, How to measure cable loss](https://www.rohde-schwarz.com/au/products/test-and-measurement/essentials-test-equipment/spectrum-analyzers/how-to-measure-cable-loss_258130.html), Overview и Cable loss measurement with VNA; [Keysight FieldFox B Series](https://helpfiles.keysight.com/csg/B_Series_FieldFox_WebHelp/Chapter_3_CAT_%28Cable_and_Antenna_Test%29_Mode.htm), 1-Port Cable Loss и 2-Port Insertion Loss. Характеристики примеров указаны выше со ссылками на паспорта; они не заменяют документацию фактически приобретённой сборки.

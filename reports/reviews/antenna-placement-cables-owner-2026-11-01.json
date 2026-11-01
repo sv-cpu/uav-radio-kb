@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-01",
+  "reviewer": "sv-cpu (владелец репозитория)",
+  "role": "owner_content_review",
+  "independent_human_review": false,
+  "owner_approval_note": "reports/reviews/antenna-placement-cables-owner-2026-11-01.md",
+  "method": "Владелец проверил и утвердил содержание статьи 3.5 сообщением в чате: «3.5 проверил утверждаю». Зафиксирована контрольная сумма версии на момент согласования. Численные тесты формулы uniform-cable-attenuation ранее описаны в reports/verification-part03-calculations.md.",
+  "documents": {
+    "antenna-placement-cables": {
+      "path": "docs/03-antennas/placement-cables.md",
+      "sha256": "0cbb15876aa588fe2ca332b198358aa6c8537b4764d143b1c709f9f5455a5c5f",
+      "decision": "approved",
+      "notes": "Согласовано владельцем вместе с учебным пересчётом потерь кабеля и девятью паспортными примерами. rag.include остаётся false.",
+      "source_ids": [
+        "keysight-fieldfox-cat",
+        "keysight-antenna-tips",
+        "rs-cable-loss",
+        "hs-rg178-bu",
+        "hs-rg174-u",
+        "hs-rg316-u",
+        "hs-rg58-cu",
+        "times-lmr195",
+        "times-lmr200",
+        "times-lmr240",
+        "times-lmr400",
+        "times-lmr600"
+      ],
+      "formula_ids": [
+        "uniform-cable-attenuation"
+      ]
+    }
+  },
+  "limits": "Ревью владельцем, не независимое внешнее экспертное ревью. Аппаратные измерения и допуск в основной RAG отсутствуют.",
+  "validation_results": {
+    "metadata": "python -m scripts.validate",
+    "note": "Проверка метаданных и контрольной суммы выполняется при записи статуса verified"
+  }
+}
