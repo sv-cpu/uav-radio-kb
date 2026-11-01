@@ -18,3 +18,4 @@
 - Обзорный HTML-сайт для публичной проверки собирается `scripts/build_site.py` и публикуется на GitHub Pages; это витрина для чтения, не замена ревью содержания и не основной RAG.
 - Чеклист доработки статьи 3.1 (граница относительно 3.2–3.5 и остальной базы): [checklist-article-3.1.md](checklist-article-3.1.md).
 - Чеклист доработки статьи 3.4: [checklist-article-3.4.md](checklist-article-3.4.md); статья согласована владельцем (`verified`).
+- Чеклист доработки статьи 3.2: [checklist-article-3.2.md](checklist-article-3.2.md); статья ещё `draft`.
