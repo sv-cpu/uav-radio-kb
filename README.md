@@ -15,7 +15,12 @@ python -m unittest discover -s tests -v
 python -m scripts.validate
 python -m scripts.export_rag --research
 python -m scripts.prepare_pardai --as-of 2026-10-31
+python -m scripts.build_site --base-url /uav-radio-kb
 ```
+
+Обзорный HTML-сайт для проверки публикуется на GitHub Pages:
+[https://sv-cpu.github.io/uav-radio-kb/](https://sv-cpu.github.io/uav-radio-kb/).
+Сборка идёт автоматически при push в `main` (workflow `pages.yml`). Каталог `build/site` в Git не входит.
 
 `export_rag --research` создаёт `build/research.jsonl` с предупреждением в каждой записи. Это экспериментальная выгрузка целых статей для разработки, не основной корпус. Без `--research` этот экспорт завершится с ошибкой: схема фрагментов ещё не реализована. `prepare_pardai` отдельно создаёт локальный пакет Markdown и манифест; на указанную дату основной пакет пуст. Подробнее — в [инструкции интеграции](rag/pardai-integration.md). Валидатор проверяет соответствие статуса verified записи ревью и контрольной сумме статьи. Front matter записывается как JSON — подмножество YAML 1.2; текущий парсер не принимает произвольный YAML. Валидатор проверяет только перечисленные в его коде базовые поля, но не полную схему, ссылки и содержание.
 
