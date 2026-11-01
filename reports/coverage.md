@@ -29,3 +29,5 @@
 Статья 3.5 доработана по [чеклисту](checklist-article-3.5.md): краткий ответ и порядок, борт/земля, частота паспорта, разъёмы SMA/RP-SMA, related/aliases, вопросы `a29`–`a32`, девять паспортных кабелей. 2026-11-01 владелец утвердил 3.5: статус `verified`, запись [ревью](reviews/antenna-placement-cables-owner-2026-11-01.json); `rag.include` остаётся false.
 
 Статья 3.3 доработана по [чеклисту](checklist-article-3.3.md): краткий ответ и порядок, борт/земля, RHCP/LHCP и соглашение наблюдения, граница с 2.5, related/aliases, вопросы `a33`–`a35`. 2026-11-01 владелец утвердил 3.3: статус `verified`, запись [ревью](reviews/antenna-polarization-owner-2026-11-01.json); `rag.include` остаётся false.
+
+Статья 4.1 доработана по [чеклисту](checklist-article-4.1.md): порядок чтения паспорта TX/RX, борт/земля, состав тракта, плоскость мощности ≠ EIRP, related/aliases, вопросы `h01`–`h03`. Статус остаётся `draft`; `rag.include: false`.
