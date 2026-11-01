@@ -440,6 +440,54 @@ sources:
     availability: "PDF available"
     license: "copyright; reuse conditions unknown"
     notes: "LMR-400 construction, electrical, mechanical and typical attenuation; printed pp. 24–25, PDF pp. 24–25 in linked catalog"
+  - id: hs-rg178-bu
+    title: "RG_178_B/U, item 22510043"
+    organization: "HUBER+SUHNER"
+    type: manufacturer_datasheet
+    language: en
+    url: https://www.hubersuhner.com/Asset/eyJpZGVudGlmaWVyIjoxMTY0NDksInR5cGUiOiJhc3NldCJ9/5uPHdE9YtZiMGuxL/H-S_RG_178_BU_EN.pdf
+    edition: "PIM-P974, 2026-03-12"
+    published: null
+    accessed: "2026-11-01"
+    availability: "PDF available"
+    license: "copyright; reuse conditions unknown"
+    notes: "Construction, Mechanical, Environmental and Power Matrix pp. 1–2; operating frequency ≤ 3 GHz"
+  - id: hs-rg58-cu
+    title: "RG_58_C/U, item 22510015"
+    organization: "HUBER+SUHNER"
+    type: manufacturer_datasheet
+    language: en
+    url: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7138/3628_HUBERSUHNERRG58CUDataSheet.pdf
+    edition: "DOC-0000177717 BB, 2021-02-10"
+    published: null
+    accessed: "2026-11-01"
+    availability: "PDF available via DigiKey redistribution"
+    license: "copyright; reuse conditions unknown"
+    notes: "Construction, Mechanical, Environmental and attenuation matrix pp. 1–2; operating frequency 1 GHz"
+  - id: times-lmr200
+    title: "LMR-200 Datasheet"
+    organization: "Times Microwave Systems"
+    type: manufacturer_datasheet
+    language: en
+    url: https://timesmicrowave.com/wp-content/uploads/2022/06/lmr-200-datasheet.pdf
+    edition: "catalog revision unknown"
+    published: null
+    accessed: "2026-11-01"
+    availability: "PDF available"
+    license: "copyright; reuse conditions unknown"
+    notes: "Construction, Electrical, Mechanical and typical attenuation; OD 0.195 in / 4.95 mm"
+  - id: times-lmr600
+    title: "LMR-600 Datasheet"
+    organization: "Times Microwave Systems"
+    type: manufacturer_datasheet
+    language: en
+    url: https://timesmicrowave.com/wp-content/uploads/2022/03/lmr-600-coax-cables-datasheet.pdf
+    edition: "catalog revision unknown"
+    published: null
+    accessed: "2026-11-01"
+    availability: "PDF available"
+    license: "copyright; reuse conditions unknown"
+    notes: "Construction, Electrical, Mechanical and typical attenuation; OD 0.590 in / 14.99 mm"
   - id: rs-rf-fundamentals-mismatch
     title: "RF Fundamentals Part 3: RF Components and Measurements"
     organization: "Rohde & Schwarz"
