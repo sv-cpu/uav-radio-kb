@@ -26,20 +26,21 @@
     "согласование антенны",
     "согласующее устройство"
   ],
-  "status": "draft",
+  "status": "verified",
   "created_at": "2026-10-31",
   "updated_at": "2026-11-01",
-  "reviewed_at": null,
+  "reviewed_at": "2026-11-01",
   "review_due": null,
   "verification": {
-    "sources": "pending",
-    "formulas": "pending",
-    "technical_review": "pending",
-    "review_record": null
+    "sources": "passed",
+    "formulas": "passed",
+    "technical_review": "passed",
+    "review_record": "reports/reviews/antenna-matching-vswr-owner-2026-11-01.json"
   },
   "rag": {
     "include": false
   },
+
   "related": [
     "antenna-types",
     "antenna-pattern-gain",
@@ -103,7 +104,7 @@
 
 Учебный пример по таблице R&S: при `K = 1,5` получаем `ρ = (1,5 − 1)/(1,5 + 1) = 0,2`, затем `RL = −20 log₁₀(0,2) ≈ 14,0 dB`; модуль S11 в dB составляет около −14,0 dB. Это не измерение конкретной антенны. Значения таблицы округлены; тест допускает ±0,05 dB.
 
-Границы: идеальное согласование `ρ = 0` соответствует `K = 1` и бесконечному RL; полное отражение `ρ = 1` соответствует `RL = 0 dB` и бесконечному КСВН. Для активной нагрузки или несовместимых определений опоры данные выражения не следует применять без другой модели. Формулы `reflection-vswr` и `return-loss-reflection` реализованы и численно протестированы (`calculations/antenna.py`, `tests/test_antenna_calculations.py`); содержательное ревью формул и статьи ещё не завершено — см. [протокол](../../reports/verification-part03-calculations.md).
+Границы: идеальное согласование `ρ = 0` соответствует `K = 1` и бесконечному RL; полное отражение `ρ = 1` соответствует `RL = 0 dB` и бесконечному КСВН. Для активной нагрузки или несовместимых определений опоры данные выражения не следует применять без другой модели. Формулы `reflection-vswr` и `return-loss-reflection` реализованы и численно протестированы (`calculations/antenna.py`, `tests/test_antenna_calculations.py`); численный протокол — [verification-part03-calculations.md](../../reports/verification-part03-calculations.md). Версия статьи согласована владельцем; запись ревью указана в метаданных.
 
 ## Почему кабель может изменить показание
 
@@ -127,7 +128,7 @@ Keysight FieldFox B Series, глава 3, раздел Return Loss Measurements,
 
 ## Связанные материалы и источники
 
-Статья — черновик. Карта базы: [3.1 типы](antenna-types.md); [3.2 диаграмма и усиление](pattern-gain.md); [3.5 кабели и размещение](placement-cables.md); [1.2 импеданс](../01-radio-fundamentals/power-voltage-impedance.md); [4.1 передатчик и приёмник](../04-radio-hardware/transmitter-receiver.md); [9.1 диагностика](../09-diagnostics/cable-antenna.md).
+Версия согласована владельцем; основной RAG выключен. Карта базы: [3.1 типы](antenna-types.md); [3.2 диаграмма и усиление](pattern-gain.md); [3.5 кабели и размещение](placement-cables.md); [1.2 импеданс](../01-radio-fundamentals/power-voltage-impedance.md); [4.1 передатчик и приёмник](../04-radio-hardware/transmitter-receiver.md); [9.1 диагностика](../09-diagnostics/cable-antenna.md).
 
 - [Rohde & Schwarz, RF Fundamentals Part 3](https://cdn.rohde-schwarz.com/ymkt/na/content/RF_fundamentals_seminar_materials/3_RF_Fun_-_Standing_Waves_Unc-Mismatch_VNA.pdf), слайды 18 и 30–31.
 - [Rohde & Schwarz, OTA testing](https://cdn.rohde-schwarz.com/ymkt/na/content/Demystifying-OTA-testing_wp_5216-3789-52_v0100.pdf), §2.2.1.
