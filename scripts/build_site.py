@@ -235,6 +235,7 @@ def page_shell(
     base: str,
     current_section: str | None,
     sections: list[tuple[str, str, int]],
+    plan_count: int,
 ) -> str:
     nav = []
     for sid, stitle, count in sections:
@@ -264,7 +265,7 @@ def page_shell(
   <a class="brand" href="{escape(root)}">UAV Radio <span>KB</span></a>
   <nav class="nav-links">
     <a href="{escape(root)}">Разделы</a>
-    <a href="{escape(plan)}">План 65</a>
+    <a href="{escape(plan)}">План {plan_count}</a>
   </nav>
 </div></header>
 <div class="wrap layout">
@@ -336,6 +337,8 @@ def build(root: pathlib.Path, output: pathlib.Path, base_url: str = '') -> int:
 
     base = base_url.rstrip('/')
     articles, by_id = load_articles(root)
+    plan_items = parse_plan(root)
+    plan_count = len(plan_items)
     counts = {sid: 0 for sid in sorted(SECTIONS)}
     for article in articles:
         counts[article['section']] += 1
@@ -361,11 +364,11 @@ def build(root: pathlib.Path, output: pathlib.Path, base_url: str = '') -> int:
 <section class="section-grid">{''.join(tiles)}</section>
 """
     (output / 'index.html').write_text(
-        page_shell('UAV Radio KB', home_body, base=base, current_section=None, sections=section_nav),
+        page_shell('UAV Radio KB', home_body, base=base, current_section=None,
+                   sections=section_nav, plan_count=plan_count),
         encoding='utf-8', newline='\n',
     )
 
-    plan_items = parse_plan(root)
     plan_lis = ''.join(
         f'<li><span class="badge planned">{escape(num)}</span> {escape(title)}</li>'
         for num, title in plan_items
@@ -373,7 +376,7 @@ def build(root: pathlib.Path, output: pathlib.Path, base_url: str = '') -> int:
     plan_body = f"""
 <section class="hero">
   <p class="eyebrow">План первой версии</p>
-  <h1>65 согласованных материалов</h1>
+  <h1>{plan_count} согласованных материалов</h1>
   <p>Наличие пункта в плане не означает готовности статьи. Фактические файлы
   и статусы смотрите в разделах.</p>
 </section>
@@ -381,7 +384,7 @@ def build(root: pathlib.Path, output: pathlib.Path, base_url: str = '') -> int:
 """
     (output / 'plan.html').write_text(
         page_shell('План статей — UAV Radio KB', plan_body, base=base,
-                   current_section=None, sections=section_nav),
+                   current_section=None, sections=section_nav, plan_count=plan_count),
         encoding='utf-8', newline='\n',
     )
 
@@ -428,6 +431,7 @@ def build(root: pathlib.Path, output: pathlib.Path, base_url: str = '') -> int:
                 base=base,
                 current_section=sid,
                 sections=section_nav,
+                plan_count=plan_count,
             ),
             encoding='utf-8',
             newline='\n',
@@ -472,6 +476,7 @@ def build(root: pathlib.Path, output: pathlib.Path, base_url: str = '') -> int:
                     base=base,
                     current_section=sid,
                     sections=section_nav,
+                    plan_count=plan_count,
                 ),
                 encoding='utf-8',
                 newline='\n',

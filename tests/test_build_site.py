@@ -25,8 +25,8 @@ class MarkdownTest(unittest.TestCase):
 
 
 class SiteBuildTest(unittest.TestCase):
-    def test_plan_has_sixty_five(self):
-        self.assertEqual(len(parse_plan(ROOT)), 65)
+    def test_plan_has_sixty_six(self):
+        self.assertEqual(len(parse_plan(ROOT)), 66)
 
     def test_build_creates_pages(self):
         with tempfile.TemporaryDirectory() as tmp:
