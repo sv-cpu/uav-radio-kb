@@ -21,4 +21,4 @@
 - Чеклист доработки статьи 3.2: [checklist-article-3.2.md](checklist-article-3.2.md); статья согласована владельцем (`verified`).
 - Чеклист доработки статьи 3.5: [checklist-article-3.5.md](checklist-article-3.5.md); статья согласована владельцем (`verified`).
 - Чеклист доработки статьи 3.3: [checklist-article-3.3.md](checklist-article-3.3.md); статья согласована владельцем (`verified`).
-- Чеклист доработки статьи 4.1: [checklist-article-4.1.md](checklist-article-4.1.md); статья доработана, статус `draft` до согласования владельцем.
+- Чеклист доработки статьи 4.1: [checklist-article-4.1.md](checklist-article-4.1.md); переработана как навигатор ролей/совместимости, статус `draft` до согласования владельцем.
