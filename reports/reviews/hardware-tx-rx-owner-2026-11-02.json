@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "reviewer": "sv-cpu (владелец репозитория)",
+  "role": "owner_content_review",
+  "independent_human_review": false,
+  "owner_approval_note": "reports/reviews/hardware-tx-rx-owner-2026-11-02.md",
+  "method": "Владелец проверил и утвердил содержание статьи 4.1 сообщением в чате: «проверил, утверждаю». Зафиксирована контрольная сумма версии на момент согласования.",
+  "documents": {
+    "hardware-tx-rx": {
+      "path": "docs/04-radio-hardware/transmitter-receiver.md",
+      "sha256": "867f176684262d02c40f54ecedead97f3b61abaa2404b2b5d84e79e4e11f93ba",
+      "decision": "approved",
+      "notes": "Согласовано владельцем. Формул в статье нет. rag.include остаётся false.",
+      "source_ids": [
+        "adi-rf-chain"
+      ],
+      "formula_ids": []
+    }
+  },
+  "limits": "Ревью владельцем, не независимое внешнее экспертное ревью. Аппаратные измерения и допуск в основной RAG отсутствуют.",
+  "validation_results": {
+    "metadata": "python -m scripts.validate",
+    "note": "Проверка метаданных и контрольной суммы выполняется при записи статуса verified"
+  }
+}

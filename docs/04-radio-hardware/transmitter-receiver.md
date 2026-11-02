@@ -30,16 +30,16 @@
     "пара TX RX",
     "радиотракт"
   ],
-  "status": "draft",
+  "status": "verified",
   "created_at": "2026-10-31",
   "updated_at": "2026-11-02",
-  "reviewed_at": null,
+  "reviewed_at": "2026-11-02",
   "review_due": null,
   "verification": {
-    "sources": "pending",
+    "sources": "passed",
     "formulas": "not_applicable",
-    "technical_review": "pending",
-    "review_record": null
+    "technical_review": "passed",
+    "review_record": "reports/reviews/hardware-tx-rx-owner-2026-11-02.json"
   },
   "rag": {
     "include": false
@@ -149,6 +149,6 @@ Analog Devices, *RF Signal Chain Discourse*, связывает усиление
 
 ## Связанные материалы и источники
 
-Статья остаётся черновиком до согласования владельцем; основной RAG выключен. Карта: план [4.6](../../reports/article-plan.md); [4.2](radio-modems.md); [4.3](amplifiers-filters.md); [4.4](sensitivity-dynamic-range.md); [4.5](power-thermal-integration.md); [5.1](../05-control-links/control-architecture.md); [5.5](../05-control-links/fhss-dsss.md); [3.1](../03-antennas/antenna-types.md)–[3.5](../03-antennas/placement-cables.md); [1.3](../01-radio-fundamentals/decibels.md); [план 66 статей](../../reports/article-plan.md).
+Версия согласована владельцем; основной RAG выключен. Карта: план [4.6](../../reports/article-plan.md); [4.2](radio-modems.md); [4.3](amplifiers-filters.md); [4.4](sensitivity-dynamic-range.md); [4.5](power-thermal-integration.md); [5.1](../05-control-links/control-architecture.md); [5.5](../05-control-links/fhss-dsss.md); [3.1](../03-antennas/antenna-types.md)–[3.5](../03-antennas/placement-cables.md); [1.3](../01-radio-fundamentals/decibels.md); [план 66 статей](../../reports/article-plan.md).
 
 Источник по свойствам радиотракта: [Analog Devices, RF Signal Chain Discourse](https://www.analog.com/en/resources/analog-dialogue/articles/rf-signal-chain-discourse.html), Introduction; Frequency Range and Bandwidth; Nonlinearities; Noise; Sensitivity.
