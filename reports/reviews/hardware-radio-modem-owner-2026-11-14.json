@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "reviewer": "sv-cpu (владелец репозитория)",
+  "role": "owner_content_review",
+  "independent_human_review": false,
+  "owner_approval_note": "reports/reviews/hardware-radio-modem-owner-2026-11-14.md",
+  "method": "Владелец проверил и утвердил содержание статьи 4.2 сообщением в чате: «проверил утверждаю». Утверждение относится к версии в коммите dab132f4f9e34c80593a239ec77b9bf9db4eec9a; после этого изменены только статусные метаданные и заключительная служебная фраза.",
+  "documents": {
+    "hardware-radio-modem": {
+      "path": "docs/04-radio-hardware/radio-modems.md",
+      "sha256": "ded510440e50bd79685604bb2006d42f61cf5abe668f21aad584d081f4062c74",
+      "decision": "approved",
+      "notes": "Согласовано владельцем. Формул нет. rag.include остаётся false.",
+      "source_ids": [
+        "px4-integrated-gcs",
+        "digi-xstream-r-manual",
+        "digi-xstream-u-manual",
+        "mavlink-serialization"
+      ],
+      "formula_ids": []
+    }
+  },
+  "limits": "Согласование владельцем, не независимое внешнее экспертное ревью. Аппаратные измерения и допуск в основной RAG отсутствуют.",
+  "validation_results": {
+    "metadata": "python -m scripts.validate",
+    "note": "Проверка метаданных и контрольной суммы выполняется при записи статуса verified"
+  }
+}

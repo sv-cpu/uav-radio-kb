@@ -19,16 +19,16 @@
     "телеметрический радиомодем",
     "радиоканал передачи данных"
   ],
-  "status": "draft",
+  "status": "verified",
   "created_at": "2026-10-31",
   "updated_at": "2026-11-14",
-  "reviewed_at": null,
+  "reviewed_at": "2026-11-14",
   "review_due": null,
   "verification": {
-    "sources": "pending",
+    "sources": "passed",
     "formulas": "not_applicable",
-    "technical_review": "pending",
-    "review_record": null
+    "technical_review": "passed",
+    "review_record": "reports/reviews/hardware-radio-modem-owner-2026-11-14.json"
   },
   "rag": {
     "include": false
@@ -89,4 +89,4 @@
 3. [Digi, XStream-PKG-U USB RF Modem](https://docs.digi.com/resources/documentation/digidocs/pdfs/90002212_b.pdf), раздел BD (Interface Data Rate) Command: скорости интерфейса и радиочасти, управление потоком.
 4. [MAVLink, Packet Serialization](https://mavlink.io/en/guide/serialization.html), раздел Packet Format: формат сообщения.
 
-Статья остаётся черновиком: источники использованы для подготовки материала, но независимое техническое ревью и проверка готовности к основному RAG не проводились.
+Статья согласована владельцем. Независимое внешнее экспертное ревью и проверка готовности к основному RAG не проводились.
