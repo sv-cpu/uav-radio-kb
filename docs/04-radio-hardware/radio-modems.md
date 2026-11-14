@@ -28,10 +28,10 @@
     "sources": "passed",
     "formulas": "not_applicable",
     "technical_review": "passed",
-    "review_record": "reports/reviews/hardware-radio-modem-owner-2026-11-14.json"
+    "review_record": "reports/reviews/rag-owner-admission-2026-11-14.json"
   },
   "rag": {
-    "include": false
+    "include": true
   },
   "related": [],
   "sources": [
@@ -89,4 +89,4 @@
 3. [Digi, XStream-PKG-U USB RF Modem](https://docs.digi.com/resources/documentation/digidocs/pdfs/90002212_b.pdf), раздел BD (Interface Data Rate) Command: скорости интерфейса и радиочасти, управление потоком.
 4. [MAVLink, Packet Serialization](https://mavlink.io/en/guide/serialization.html), раздел Packet Format: формат сообщения.
 
-Статья согласована владельцем. Независимое внешнее экспертное ревью и проверка готовности к основному RAG не проводились.
+Статья согласована владельцем. Независимое внешнее экспертное ревью ещё не проводилось; материал допущен владельцем к подготовке основного RAG.

@@ -33,10 +33,10 @@
     "sources": "passed",
     "formulas": "not_applicable",
     "technical_review": "passed",
-    "review_record": "reports/reviews/hardware-amplifiers-filters-owner-2026-11-14.json"
+    "review_record": "reports/reviews/rag-owner-admission-2026-11-14.json"
   },
   "rag": {
-    "include": false
+    "include": true
   },
   "related": [],
   "sources": [
@@ -119,4 +119,4 @@ LNA предназначен для усиления принимаемого с
 
 1. [Analog Devices, RF Signal Chain Discourse: Properties and Performance Metrics](https://www.analog.com/en/resources/analog-dialogue/articles/rf-signal-chain-discourse.html), разделы Frequency Range and Bandwidth, Nonlinearities, Noise и Sensitivity.
 
-Статья согласована владельцем. Независимое внешнее экспертное ревью и допуск в основной RAG не проводились.
+Статья согласована владельцем. Независимое внешнее экспертное ревью ещё не проводилось; материал допущен владельцем к подготовке основного RAG.

@@ -36,17 +36,17 @@
   ],
   "status": "verified",
   "created_at": "2026-10-31",
-  "updated_at": "2026-11-01",
-  "reviewed_at": "2026-11-01",
+  "updated_at": "2026-11-14",
+  "reviewed_at": "2026-11-14",
   "review_due": null,
   "verification": {
     "sources": "passed",
     "formulas": "passed",
     "technical_review": "passed",
-    "review_record": "reports/reviews/antenna-placement-cables-owner-2026-11-01.json"
+    "review_record": "reports/reviews/rag-owner-admission-2026-11-14.json"
   },
   "rag": {
-    "include": false
+    "include": true
   },
   "related": [
     "antenna-types",
@@ -228,6 +228,6 @@
 
 ## Связанные материалы и источники
 
-Версия согласована владельцем; основной RAG выключен. Карта базы: [3.1 типы](antenna-types.md); [3.2 диаграмма и усиление](pattern-gain.md); [3.3 поляризация](polarization.md); [3.4 согласование](matching-vswr.md); [4.1 передатчик и приёмник](../04-radio-hardware/transmitter-receiver.md); [9.1 диагностика](../09-diagnostics/cable-antenna.md); [2.3 высота и поляризация трассы](../02-wave-propagation/polarization-height.md).
+Версия согласована владельцем; материал допущен владельцем к подготовке основного RAG. Карта базы: [3.1 типы](antenna-types.md); [3.2 диаграмма и усиление](pattern-gain.md); [3.3 поляризация](polarization.md); [3.4 согласование](matching-vswr.md); [4.1 передатчик и приёмник](../04-radio-hardware/transmitter-receiver.md); [9.1 диагностика](../09-diagnostics/cable-antenna.md); [2.3 высота и поляризация трассы](../02-wave-propagation/polarization-height.md).
 
 [Keysight, Antenna Performance Tips](https://www.keysight.com/us/en/assets/7018-06498/ebooks/5992-3662.pdf), Tip 3; [Rohde & Schwarz, How to measure cable loss](https://www.rohde-schwarz.com/au/products/test-and-measurement/essentials-test-equipment/spectrum-analyzers/how-to-measure-cable-loss_258130.html), Overview и Cable loss measurement with VNA; [Keysight FieldFox B Series](https://helpfiles.keysight.com/csg/B_Series_FieldFox_WebHelp/Chapter_3_CAT_%28Cable_and_Antenna_Test%29_Mode.htm), 1-Port Cable Loss и 2-Port Insertion Loss. Характеристики примеров указаны выше со ссылками на паспорта; они не заменяют документацию фактически приобретённой сборки.

@@ -19,17 +19,17 @@
   ],
   "status": "verified",
   "created_at": "2026-10-31",
-  "updated_at": "2026-10-31",
-  "reviewed_at": "2026-10-31",
+  "updated_at": "2026-11-14",
+  "reviewed_at": "2026-11-14",
   "review_due": null,
   "verification": {
     "sources": "passed",
     "formulas": "not_applicable",
     "technical_review": "passed",
-    "review_record": "reports/reviews/numbering-2026-10-31.json"
+    "review_record": "reports/reviews/rag-owner-admission-2026-11-14.json"
   },
   "rag": {
-    "include": false
+    "include": true
   },
   "related": [
     "propagation-diffraction",

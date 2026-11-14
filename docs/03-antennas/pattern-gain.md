@@ -33,19 +33,18 @@
   ],
   "status": "verified",
   "created_at": "2026-10-31",
-  "updated_at": "2026-11-01",
-  "reviewed_at": "2026-11-01",
+  "updated_at": "2026-11-14",
+  "reviewed_at": "2026-11-14",
   "review_due": null,
   "verification": {
     "sources": "passed",
     "formulas": "not_applicable",
     "technical_review": "passed",
-    "review_record": "reports/reviews/antenna-pattern-gain-owner-2026-11-01.json"
+    "review_record": "reports/reviews/rag-owner-admission-2026-11-14.json"
   },
   "rag": {
-    "include": false
+    "include": true
   },
-
   "related": [
     "antenna-types",
     "antenna-polarization",
@@ -115,7 +114,7 @@
 
 ## Связанные материалы и источники
 
-Версия согласована владельцем; основной RAG выключен. Карта базы: [3.1 типы](antenna-types.md); [3.3 поляризация](polarization.md); [3.4 согласование](matching-vswr.md); [3.5 размещение и кабели](placement-cables.md); [2.1 свободное пространство](../02-wave-propagation/free-space.md).
+Версия согласована владельцем; материал допущен владельцем к подготовке основного RAG. Карта базы: [3.1 типы](antenna-types.md); [3.3 поляризация](polarization.md); [3.4 согласование](matching-vswr.md); [3.5 размещение и кабели](placement-cables.md); [2.1 свободное пространство](../02-wave-propagation/free-space.md).
 
 Модель в свободном пространстве не воспроизводит автоматически отражения и экранирование корпусом. Проверка отражения на входе сама по себе не измеряет усиление и диаграмму.
 

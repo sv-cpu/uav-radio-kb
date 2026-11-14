@@ -26,17 +26,17 @@
   ],
   "status": "verified",
   "created_at": "2026-10-31",
-  "updated_at": "2026-11-01",
-  "reviewed_at": "2026-11-01",
+  "updated_at": "2026-11-14",
+  "reviewed_at": "2026-11-14",
   "review_due": null,
   "verification": {
     "sources": "passed",
     "formulas": "not_applicable",
     "technical_review": "passed",
-    "review_record": "reports/reviews/antenna-polarization-owner-2026-11-01.json"
+    "review_record": "reports/reviews/rag-owner-admission-2026-11-14.json"
   },
   "rag": {
-    "include": false
+    "include": true
   },
   "related": [
     "antenna-types",
@@ -110,6 +110,6 @@ MathWorks, раздел Polarization Loss Due to Field and Receiver Mismatch, о
 
 ## Связанные материалы и источники
 
-Версия согласована владельцем; основной RAG выключен. Карта базы: [3.1 типы](antenna-types.md); [3.2 диаграмма и усиление](pattern-gain.md); [3.4 согласование](matching-vswr.md); [3.5 размещение и кабели](placement-cables.md); [2.5 среда и высота](../02-wave-propagation/polarization-height.md).
+Версия согласована владельцем; материал допущен владельцем к подготовке основного RAG. Карта базы: [3.1 типы](antenna-types.md); [3.2 диаграмма и усиление](pattern-gain.md); [3.4 согласование](matching-vswr.md); [3.5 размещение и кабели](placement-cables.md); [2.5 среда и высота](../02-wave-propagation/polarization-height.md).
 
 Источники: [MathWorks, Polarized Fields](https://www.mathworks.com/help/phased/ug/polarized-fields.html), Linear and Circular Polarization, Axial Ratio and Ellipticity Angle, Polarization Loss Due to Field and Receiver Mismatch; [ITU-R P.1406-2](https://www.itu.int/dms_pubrec/itu-r/rec/p/R-REC-P.1406-2-201507-I%21%21PDF-E.pdf), §5.1.1; [Keysight, Antenna Performance Tips](https://www.keysight.com/us/en/assets/7018-06498/ebooks/5992-3662.pdf), Tip 2.

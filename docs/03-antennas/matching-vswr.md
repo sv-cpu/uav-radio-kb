@@ -28,19 +28,18 @@
   ],
   "status": "verified",
   "created_at": "2026-10-31",
-  "updated_at": "2026-11-01",
-  "reviewed_at": "2026-11-01",
+  "updated_at": "2026-11-14",
+  "reviewed_at": "2026-11-14",
   "review_due": null,
   "verification": {
     "sources": "passed",
     "formulas": "passed",
     "technical_review": "passed",
-    "review_record": "reports/reviews/antenna-matching-vswr-owner-2026-11-01.json"
+    "review_record": "reports/reviews/rag-owner-admission-2026-11-14.json"
   },
   "rag": {
-    "include": false
+    "include": true
   },
-
   "related": [
     "antenna-types",
     "antenna-pattern-gain",
@@ -128,7 +127,7 @@ Keysight FieldFox B Series, глава 3, раздел Return Loss Measurements,
 
 ## Связанные материалы и источники
 
-Версия согласована владельцем; основной RAG выключен. Карта базы: [3.1 типы](antenna-types.md); [3.2 диаграмма и усиление](pattern-gain.md); [3.5 кабели и размещение](placement-cables.md); [1.2 импеданс](../01-radio-fundamentals/power-voltage-impedance.md); [4.1 передатчик и приёмник](../04-radio-hardware/transmitter-receiver.md); [9.1 диагностика](../09-diagnostics/cable-antenna.md).
+Версия согласована владельцем; материал допущен владельцем к подготовке основного RAG. Карта базы: [3.1 типы](antenna-types.md); [3.2 диаграмма и усиление](pattern-gain.md); [3.5 кабели и размещение](placement-cables.md); [1.2 импеданс](../01-radio-fundamentals/power-voltage-impedance.md); [4.1 передатчик и приёмник](../04-radio-hardware/transmitter-receiver.md); [9.1 диагностика](../09-diagnostics/cable-antenna.md).
 
 - [Rohde & Schwarz, RF Fundamentals Part 3](https://cdn.rohde-schwarz.com/ymkt/na/content/RF_fundamentals_seminar_materials/3_RF_Fun_-_Standing_Waves_Unc-Mismatch_VNA.pdf), слайды 18 и 30–31.
 - [Rohde & Schwarz, OTA testing](https://cdn.rohde-schwarz.com/ymkt/na/content/Demystifying-OTA-testing_wp_5216-3789-52_v0100.pdf), §2.2.1.
