@@ -548,3 +548,28 @@ sources:
     availability: "online"
     license: "reuse conditions unknown"
     notes: "ADALM-PLUTO Receiver Sensitivity: conditions and role of demodulation."
+
+  - id: adi-absolute-max
+    title: "What’s the big deal about ABSOLUTE MAXIMUM RATINGS?"
+    organization: "Analog Devices"
+    type: technical_article
+    language: en
+    url: https://www.analog.com/en/resources/analog-dialogue/raqs/raq-issue-50.html
+    edition: "RAQ Issue 50"
+    published: null
+    accessed: "2026-11-14"
+    availability: available
+    license: unknown
+    notes: "Answer: recommended operating conditions and absolute limits."
+  - id: ti-ldo-thermals
+    title: "LDO Basics: Thermals — How Hot is Your Application?"
+    organization: "Texas Instruments"
+    type: technical_article
+    language: en
+    url: https://www.ti.com/document-viewer/lit/html/SSZT950/GUID-F0C58C86-F36A-49A3-8278-36081F78D695
+    edition: "SSZT950"
+    published: "2017-09"
+    accessed: "2026-11-14"
+    availability: available
+    license: unknown
+    notes: "Do You Have the Right Package?; Thermal Shutdown. Example applies to an LDO, not all radio devices."
