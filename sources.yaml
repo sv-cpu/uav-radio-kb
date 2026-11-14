@@ -500,3 +500,39 @@ sources:
     availability: "PDF available"
     license: unknown
     notes: "Slides 18, 30–31: reflection coefficient, VSWR and positive return loss; table rounded."
+  - id: digi-xstream-r-manual
+    title: "XStream-PKG-R RS-232/485 RF Modem Product Manual"
+    organization: "Digi International"
+    type: manufacturer_manual
+    language: en
+    url: https://docs.digi.com/resources/documentation/digidocs/PDFs/90002210_B.pdf
+    edition: "v4.2B5"
+    published: null
+    accessed: "2026-11-14"
+    availability: "PDF available"
+    license: "copyright; reuse conditions unknown"
+    notes: "Section 3.1 Serial Communications."
+  - id: digi-xstream-u-manual
+    title: "XStream-PKG-U USB RF Modem"
+    organization: "Digi International"
+    type: manufacturer_manual
+    language: en
+    url: https://docs.digi.com/resources/documentation/digidocs/pdfs/90002212_b.pdf
+    edition: "revision B"
+    published: null
+    accessed: "2026-11-14"
+    availability: "PDF available"
+    license: "copyright; reuse conditions unknown"
+    notes: "BD (Interface Data Rate) Command."
+  - id: mavlink-serialization
+    title: "Packet Serialization"
+    organization: "MAVLink"
+    type: technical_documentation
+    language: en
+    url: https://mavlink.io/en/guide/serialization.html
+    edition: "online"
+    published: null
+    accessed: "2026-11-14"
+    availability: "online"
+    license: "reuse conditions unknown"
+    notes: "Packet Format."
