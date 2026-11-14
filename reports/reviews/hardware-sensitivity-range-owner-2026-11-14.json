@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "reviewer": "sv-cpu (владелец репозитория)",
+  "role": "owner_content_review",
+  "independent_human_review": false,
+  "method": "Владелец проверил и согласовал статью 4.4 сообщением «проверил согласовываю». Согласована версия 86088041fdae1b86daacec6d69618f93b95ddd15; изменены только статусные метаданные и служебная фраза.",
+  "limits": "Согласование владельца достаточно для допуска к подготовке RAG; независимая экспертная оценка работающего агента и фактическая загрузка в PardAI ещё не выполнены.",
+  "documents": {
+    "hardware-sensitivity-range": {
+      "path": "docs/04-radio-hardware/sensitivity-dynamic-range.md",
+      "sha256": "2ac4291a2119e67d9a1a6c21cf1f6955267c6de85359ccc02d0929e31c5ffddf",
+      "decision": "approved",
+      "source_ids": [
+        "adi-rf-chain",
+        "adi-pluto-sensitivity"
+      ],
+      "formula_ids": []
+    }
+  }
+}

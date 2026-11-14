@@ -20,19 +20,19 @@
     "dynamic range",
     "перегрузка приёмника"
   ],
-  "status": "draft",
+  "status": "verified",
   "created_at": "2026-10-31",
   "updated_at": "2026-11-14",
-  "reviewed_at": null,
+  "reviewed_at": "2026-11-14",
   "review_due": null,
   "verification": {
-    "sources": "pending",
+    "sources": "passed",
     "formulas": "not_applicable",
-    "technical_review": "pending",
-    "review_record": null
+    "technical_review": "passed",
+    "review_record": "reports/reviews/hardware-sensitivity-range-owner-2026-11-14.json"
   },
   "rag": {
-    "include": false
+    "include": true
   },
   "related": [
     "hardware-tx-rx",
@@ -93,4 +93,4 @@
 1. [Analog Devices, RF Signal Chain Discourse: Properties and Performance Metrics](https://www.analog.com/en/resources/analog-dialogue/articles/rf-signal-chain-discourse.html), разделы Noise и Multifold Derivatives: чувствительность и варианты определения динамического диапазона.
 2. [Analog Devices, ADALM-PLUTO Receiver Sensitivity](https://developer.analog.com/docs/system-level/tools/pluto/users/receiver_sensitivity/), раздел ADALM-PLUTO Receiver Sensitivity: условия чувствительности и роль демодулятора.
 
-Статья — черновик до согласования владельцем и документированной проверки. Основной RAG для неё пока выключен.
+Статья согласована владельцем и допущена к подготовке основного RAG. Независимое внешнее экспертное ревью запланировано на работающем агенте.
