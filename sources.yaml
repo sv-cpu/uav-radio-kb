@@ -536,3 +536,15 @@ sources:
     availability: "online"
     license: "reuse conditions unknown"
     notes: "Packet Format."
+  - id: adi-pluto-sensitivity
+    title: "ADALM-PLUTO Receiver Sensitivity"
+    organization: "Analog Devices"
+    type: technical_documentation
+    language: en
+    url: https://developer.analog.com/docs/system-level/tools/pluto/users/receiver_sensitivity/
+    edition: "online; revision unknown"
+    published: null
+    accessed: "2026-11-14"
+    availability: "online"
+    license: "reuse conditions unknown"
+    notes: "ADALM-PLUTO Receiver Sensitivity: conditions and role of demodulation."
